@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        AMBasicsPart1.init()
+        AMBasicsPart1.init().SetupTest()
+        
     }
 }
 
