@@ -10,6 +10,8 @@ import Foundation
 class AMBasicsPart2: NSObject {
     func SetupTest() {
         Test()
+        Test1()
+        Test2()
     }
     ///-----------------------------类型安全 & 类型推断-----------------------------///
     let meaningOfLife = 42
@@ -53,8 +55,25 @@ class AMBasicsPart2: NSObject {
     let justOverOneMillion = 1_000_000.000_000_1
     
     ///-----------------------------整数转换-----------------------------///
-    
-    
-    
-    
+    // let cannotBeNegative: UInt8 = -1
+    // UInt8 类型不能存储负数，所以会报错
+    // let tooBig: Int8 = Int8.max + 1
+    // Int8 类型不能存储超过最大值的数，所以会报错
+    func Test1() {
+        let twoThousand: UInt16 = 2
+        let one: UInt8 = 1
+        /* 要将一种数字类型转换成另一种，你要用当前值来初始化一个期望类型的新数字，
+        这个数字的类型就是你的目标类型。*/
+        let twoThousandAndOne = twoThousand + UInt16(one)
+        print(twoThousandAndOne)
+    }
+    ///--------------------------整数和浮点数转换---------------------------///
+    func Test2() {
+        let three = 3
+        let pointOneFourOneFiveNine = 0.14159
+        let pi = Double(three) + pointOneFourOneFiveNine
+        // pi 等于 3.14159，所以被推测为 Double 类型
+        print(pi)
+    }
+    /* 结合数字类常量和变量不同于结合数字类字面量。字面量 3 可以直接和字面量 0.14159 相加，因为数字字面量本身没有明确的类型。它们的类型只在编译器需要求值的时候被推测。*/
 }
