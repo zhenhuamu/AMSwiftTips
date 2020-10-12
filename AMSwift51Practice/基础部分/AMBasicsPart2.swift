@@ -76,4 +76,25 @@ class AMBasicsPart2: NSObject {
         print(pi)
     }
     /* 结合数字类常量和变量不同于结合数字类字面量。字面量 3 可以直接和字面量 0.14159 相加，因为数字字面量本身没有明确的类型。它们的类型只在编译器需要求值的时候被推测。*/
+    
+    ///--------------------------类型别名---------------------------///
+    typealias AudioSample = UInt16
+    var maxAmplitudeFound = AudioSample.min
+    // maxAmplitudeFound 现在是 0
+    
+    ///--------------------------布尔值---------------------------///
+    func Test3() {
+        _ = true
+        _ = false
+        
+//        let i = 1
+//        if i {
+//            // 这个例子不会通过编译，会报错
+//        }
+        
+        let k = 1
+        if k == 1 {
+            // 这个例子会编译成功
+        }
+    }
 }

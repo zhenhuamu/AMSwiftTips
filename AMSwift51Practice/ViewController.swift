@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         AMBasicsPart1.init().SetupTest()
         AMBasicsPart2.init().SetupTest()
+        AMBasicsPart3.init().SetupTest()
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E59160B2534934700074303 /* AMBasicsPart3.swift */; };
 		8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA399E25344AEA0045D1FD /* AppDelegate.swift */; };
 		8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */; };
 		8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A225344AEA0045D1FD /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E59160B2534934700074303 /* AMBasicsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsPart3.swift; sourceTree = "<group>"; };
 		8EDA399B25344AEA0045D1FD /* AMSwift51Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwift51Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDA399E25344AEA0045D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				8EDA39B525344BD60045D1FD /* AMBasicsPart1.swift */,
 				8EDA39BB25345CBC0045D1FD /* AMBasicsPart2.swift */,
+				8E59160B2534934700074303 /* AMBasicsPart3.swift */,
 			);
 			path = "基础部分";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				8EDA39BC25345CBC0045D1FD /* AMBasicsPart2.swift in Sources */,
 				8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */,
 				8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */,
+				8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */,
 				8EDA39B625344BD60045D1FD /* AMBasicsPart1.swift in Sources */,
 				8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */,
 			);
