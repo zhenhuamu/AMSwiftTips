@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         AMBasicsPart2.init().SetupTest()
         AMBasicsPart3.init().SetupTest()
         AMBasicsPart4.init().SetupTest()
+        
+        AMBasicsOperatorPart1.init().SetupTest()
+        AMBasicsOperatorPart2.init().SetupTest()
     }
 }
 
