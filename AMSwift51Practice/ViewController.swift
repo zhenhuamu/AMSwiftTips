@@ -13,13 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        AMBasicsPart1.init().SetupTest()
-        AMBasicsPart2.init().SetupTest()
-        AMBasicsPart3.init().SetupTest()
-        AMBasicsPart4.init().SetupTest()
+        AMBasicsPart1().SetupTest()
+        AMBasicsPart2().SetupTest()
+        AMBasicsPart3().SetupTest()
+        AMBasicsPart4().SetupTest()
         
-        AMBasicsOperatorPart1.init().SetupTest()
-        AMBasicsOperatorPart2.init().SetupTest()
+        AMBasicsOperatorPart1().SetupTest()
+        AMBasicsOperatorPart2().SetupTest()
+        
+        AMClassAndStructPart1().SetupTest()
     }
 }
 
