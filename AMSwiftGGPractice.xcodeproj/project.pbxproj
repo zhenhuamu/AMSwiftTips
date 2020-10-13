@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		8E59160B2534934700074303 /* AMBasicsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsPart3.swift; sourceTree = "<group>"; };
-		8EDA399B25344AEA0045D1FD /* AMSwift51Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwift51Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwiftGGPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDA399E25344AEA0045D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8EDA39A225344AEA0045D1FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		8EDA399225344AEA0045D1FD = {
 			isa = PBXGroup;
 			children = (
-				8EDA399D25344AEA0045D1FD /* AMSwift51Practice */,
+				8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */,
 				8EDA399C25344AEA0045D1FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		8EDA399C25344AEA0045D1FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EDA399B25344AEA0045D1FD /* AMSwift51Practice.app */,
+				8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8EDA399D25344AEA0045D1FD /* AMSwift51Practice */ = {
+		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
 				8EDA3A8225359F7B0045D1FD /* 类和结构体 */,
@@ -81,7 +81,7 @@
 				8EDA39A925344AEB0045D1FD /* LaunchScreen.storyboard */,
 				8EDA39AC25344AEB0045D1FD /* Info.plist */,
 			);
-			path = AMSwift51Practice;
+			path = AMSwiftGGPractice;
 			sourceTree = "<group>";
 		};
 		8EDA39B425344B870045D1FD /* 基础部分 */ = {
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EDA399A25344AEA0045D1FD /* AMSwift51Practice */ = {
+		8EDA399A25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EDA39AF25344AEB0045D1FD /* Build configuration list for PBXNativeTarget "AMSwift51Practice" */;
+			buildConfigurationList = 8EDA39AF25344AEB0045D1FD /* Build configuration list for PBXNativeTarget "AMSwiftGGPractice" */;
 			buildPhases = (
 				8EDA399725344AEA0045D1FD /* Sources */,
 				8EDA399825344AEA0045D1FD /* Frameworks */,
@@ -127,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = AMSwift51Practice;
+			name = AMSwiftGGPractice;
 			productName = AMSwift51Practice;
-			productReference = 8EDA399B25344AEA0045D1FD /* AMSwift51Practice.app */;
+			productReference = 8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8EDA399625344AEA0045D1FD /* Build configuration list for PBXProject "AMSwift51Practice" */;
+			buildConfigurationList = 8EDA399625344AEA0045D1FD /* Build configuration list for PBXProject "AMSwiftGGPractice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EDA399A25344AEA0045D1FD /* AMSwift51Practice */,
+				8EDA399A25344AEA0045D1FD /* AMSwiftGGPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -340,12 +340,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 825DHE6NL9;
-				INFOPLIST_FILE = AMSwift51Practice/Info.plist;
+				INFOPLIST_FILE = AMSwiftGGPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andymu.AMSwift51Practice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andymu.AMSwiftGGPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -359,12 +359,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 825DHE6NL9;
-				INFOPLIST_FILE = AMSwift51Practice/Info.plist;
+				INFOPLIST_FILE = AMSwiftGGPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andymu.AMSwift51Practice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andymu.AMSwiftGGPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -374,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EDA399625344AEA0045D1FD /* Build configuration list for PBXProject "AMSwift51Practice" */ = {
+		8EDA399625344AEA0045D1FD /* Build configuration list for PBXProject "AMSwiftGGPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EDA39AD25344AEB0045D1FD /* Debug */,
@@ -383,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EDA39AF25344AEB0045D1FD /* Build configuration list for PBXNativeTarget "AMSwift51Practice" */ = {
+		8EDA39AF25344AEB0045D1FD /* Build configuration list for PBXNativeTarget "AMSwiftGGPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EDA39B025344AEB0045D1FD /* Debug */,

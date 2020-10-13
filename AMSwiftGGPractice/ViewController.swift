@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  AMSwift51Practice
+//  AMSwiftGGPractice
 //
 //  Created by AndyMu on 2020/10/12.
 //
