@@ -1,2 +1,2 @@
-# AMSwift51Practice
+# AMSwiftGGPractice
 Swift练习
