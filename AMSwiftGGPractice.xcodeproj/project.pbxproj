@@ -20,6 +20,7 @@
 		8EDA39C5253550C10045D1FD /* AMBasicsOperatorPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39C4253550C10045D1FD /* AMBasicsOperatorPart1.swift */; };
 		8EDA39C9253570DC0045D1FD /* AMBasicsOperatorPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39C8253570DC0045D1FD /* AMBasicsOperatorPart2.swift */; };
 		8EDA3A8425359FC10045D1FD /* AMClassAndStructPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3A8325359FC10045D1FD /* AMClassAndStructPart1.swift */; };
+		8EDA3A90253693020045D1FD /* AMPropertyPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3A8F253693020045D1FD /* AMPropertyPart1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8EDA39C4253550C10045D1FD /* AMBasicsOperatorPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsOperatorPart1.swift; sourceTree = "<group>"; };
 		8EDA39C8253570DC0045D1FD /* AMBasicsOperatorPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsOperatorPart2.swift; sourceTree = "<group>"; };
 		8EDA3A8325359FC10045D1FD /* AMClassAndStructPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMClassAndStructPart1.swift; sourceTree = "<group>"; };
+		8EDA3A8F253693020045D1FD /* AMPropertyPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMPropertyPart1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8EDA3A8E253692A80045D1FD /* 属性 */,
 				8EDA3A8225359F7B0045D1FD /* 类和结构体 */,
 				8EDA39C32535503D0045D1FD /* 基本运算符 */,
 				8EDA39B425344B870045D1FD /* 基础部分 */,
@@ -110,6 +113,14 @@
 				8EDA3A8325359FC10045D1FD /* AMClassAndStructPart1.swift */,
 			);
 			path = "类和结构体";
+			sourceTree = "<group>";
+		};
+		8EDA3A8E253692A80045D1FD /* 属性 */ = {
+			isa = PBXGroup;
+			children = (
+				8EDA3A8F253693020045D1FD /* AMPropertyPart1.swift */,
+			);
+			path = "属性";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDA39C1253548890045D1FD /* AMBasicsPart4.swift in Sources */,
+				8EDA3A90253693020045D1FD /* AMPropertyPart1.swift in Sources */,
 				8EDA39BC25345CBC0045D1FD /* AMBasicsPart2.swift in Sources */,
 				8EDA3A8425359FC10045D1FD /* AMClassAndStructPart1.swift in Sources */,
 				8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */,

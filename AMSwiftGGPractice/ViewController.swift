@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         AMBasicsOperatorPart2().SetupTest()
         
         AMClassAndStructPart1().SetupTest()
+        
+        AMPropertyPart1().SetupTest()
     }
 }
 
