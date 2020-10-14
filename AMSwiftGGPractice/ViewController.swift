@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         AMClassAndStructPart1().SetupTest()
         
         AMPropertyPart1().SetupTest()
+        AMPropertyPart2().SetupTest()
     }
 }
 

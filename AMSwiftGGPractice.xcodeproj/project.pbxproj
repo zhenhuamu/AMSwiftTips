@@ -21,6 +21,7 @@
 		8EDA39C9253570DC0045D1FD /* AMBasicsOperatorPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39C8253570DC0045D1FD /* AMBasicsOperatorPart2.swift */; };
 		8EDA3A8425359FC10045D1FD /* AMClassAndStructPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3A8325359FC10045D1FD /* AMClassAndStructPart1.swift */; };
 		8EDA3A90253693020045D1FD /* AMPropertyPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3A8F253693020045D1FD /* AMPropertyPart1.swift */; };
+		8EDA3A9425369D6C0045D1FD /* AMPropertyPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3A9325369D6C0045D1FD /* AMPropertyPart2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		8EDA39C8253570DC0045D1FD /* AMBasicsOperatorPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsOperatorPart2.swift; sourceTree = "<group>"; };
 		8EDA3A8325359FC10045D1FD /* AMClassAndStructPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMClassAndStructPart1.swift; sourceTree = "<group>"; };
 		8EDA3A8F253693020045D1FD /* AMPropertyPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMPropertyPart1.swift; sourceTree = "<group>"; };
+		8EDA3A9325369D6C0045D1FD /* AMPropertyPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMPropertyPart2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				8EDA3A8F253693020045D1FD /* AMPropertyPart1.swift */,
+				8EDA3A9325369D6C0045D1FD /* AMPropertyPart2.swift */,
 			);
 			path = "属性";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDA3A9425369D6C0045D1FD /* AMPropertyPart2.swift in Sources */,
 				8EDA39C1253548890045D1FD /* AMBasicsPart4.swift in Sources */,
 				8EDA3A90253693020045D1FD /* AMPropertyPart1.swift in Sources */,
 				8EDA39BC25345CBC0045D1FD /* AMBasicsPart2.swift in Sources */,
