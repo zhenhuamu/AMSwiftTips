@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         
         AMFunctionPart1().SetupTest()
         AMFunctionPart2().SetupTest()
+        
+        AMBlocksPart1().SetupTest()
     }
 }
 
