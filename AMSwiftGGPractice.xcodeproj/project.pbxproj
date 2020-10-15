@@ -30,6 +30,7 @@
 		8EDA3CB6253830FB0045D1FD /* AMStringPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3CB5253830FB0045D1FD /* AMStringPart2.swift */; };
 		8EDA3CBB253834C40045D1FD /* AMSetPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3CBA253834C40045D1FD /* AMSetPart1.swift */; };
 		8EDA3D1725384AC30045D1FD /* AMSetPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3D1625384AC30045D1FD /* AMSetPart2.swift */; };
+		8EDA3D1A253850120045D1FD /* AMSetPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3D19253850120045D1FD /* AMSetPart3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		8EDA3CB5253830FB0045D1FD /* AMStringPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMStringPart2.swift; sourceTree = "<group>"; };
 		8EDA3CBA253834C40045D1FD /* AMSetPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSetPart1.swift; sourceTree = "<group>"; };
 		8EDA3D1625384AC30045D1FD /* AMSetPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSetPart2.swift; sourceTree = "<group>"; };
+		8EDA3D19253850120045D1FD /* AMSetPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSetPart3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				8EDA3CBA253834C40045D1FD /* AMSetPart1.swift */,
 				8EDA3D1625384AC30045D1FD /* AMSetPart2.swift */,
+				8EDA3D19253850120045D1FD /* AMSetPart3.swift */,
 			);
 			path = "集合类型";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				8EDA3CB6253830FB0045D1FD /* AMStringPart2.swift in Sources */,
 				8EDA3A8425359FC10045D1FD /* AMClassAndStructPart1.swift in Sources */,
 				8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */,
+				8EDA3D1A253850120045D1FD /* AMSetPart3.swift in Sources */,
 				8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */,
 				8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */,
 				8EDA39C5253550C10045D1FD /* AMBasicsOperatorPart1.swift in Sources */,
