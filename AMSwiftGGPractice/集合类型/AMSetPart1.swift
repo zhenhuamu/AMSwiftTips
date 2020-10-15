@@ -97,7 +97,7 @@ class AMSetPart1 {
     
     ///------------------------数组的遍历--------------------------///
     func Test1() {
-        var shoppingList = ["Six eggs", "Milk", "Flour", "Baking Powder", "Bananas"]
+        let shoppingList = ["Six eggs", "Milk", "Flour", "Baking Powder", "Bananas"]
         for item in shoppingList {
             print(item)
         }
