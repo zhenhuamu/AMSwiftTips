@@ -29,6 +29,7 @@
 		8EDA3CB22538263F0045D1FD /* AMStringPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3CB12538263F0045D1FD /* AMStringPart1.swift */; };
 		8EDA3CB6253830FB0045D1FD /* AMStringPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3CB5253830FB0045D1FD /* AMStringPart2.swift */; };
 		8EDA3CBB253834C40045D1FD /* AMSetPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3CBA253834C40045D1FD /* AMSetPart1.swift */; };
+		8EDA3D1725384AC30045D1FD /* AMSetPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3D1625384AC30045D1FD /* AMSetPart2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		8EDA3CB12538263F0045D1FD /* AMStringPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMStringPart1.swift; sourceTree = "<group>"; };
 		8EDA3CB5253830FB0045D1FD /* AMStringPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMStringPart2.swift; sourceTree = "<group>"; };
 		8EDA3CBA253834C40045D1FD /* AMSetPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSetPart1.swift; sourceTree = "<group>"; };
+		8EDA3D1625384AC30045D1FD /* AMSetPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSetPart2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				8EDA3CBA253834C40045D1FD /* AMSetPart1.swift */,
+				8EDA3D1625384AC30045D1FD /* AMSetPart2.swift */,
 			);
 			path = "集合类型";
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				8EDA3CB22538263F0045D1FD /* AMStringPart1.swift in Sources */,
 				8EDA3A9F2536D24E0045D1FD /* AMBlocksPart1.swift in Sources */,
+				8EDA3D1725384AC30045D1FD /* AMSetPart2.swift in Sources */,
 				8EDA3A9425369D6C0045D1FD /* AMPropertyPart2.swift in Sources */,
 				8EDA39C1253548890045D1FD /* AMBasicsPart4.swift in Sources */,
 				8EDA3CBB253834C40045D1FD /* AMSetPart1.swift in Sources */,

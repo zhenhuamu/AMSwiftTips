@@ -115,12 +115,5 @@ class AMSetPart1 {
         // Item 3: Flour
         // Item 4: Baking Powder
         // Item 5: Bananas
-        
     }
-    
-    
-    
-    
-    
-    
 }
