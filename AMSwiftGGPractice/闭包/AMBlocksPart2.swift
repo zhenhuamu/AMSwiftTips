@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AMBlocksPart2: NSObject {
+class AMBlocksPart2 {
     func SetupTest() {
         Test()
         Test1()

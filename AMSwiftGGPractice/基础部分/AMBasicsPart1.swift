@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AMBasicsPart1: NSObject {
+class AMBasicsPart1 {
     func SetupTest() {
         Test()
         Test1()

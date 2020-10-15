@@ -26,6 +26,7 @@
 		8EDA3A9B2536C31E0045D1FD /* AMFunctionPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3A9A2536C31E0045D1FD /* AMFunctionPart2.swift */; };
 		8EDA3A9F2536D24E0045D1FD /* AMBlocksPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3A9E2536D24E0045D1FD /* AMBlocksPart1.swift */; };
 		8EDA3AA32536E29F0045D1FD /* AMBlocksPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3AA22536E29F0045D1FD /* AMBlocksPart2.swift */; };
+		8EDA3CB22538263F0045D1FD /* AMStringPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3CB12538263F0045D1FD /* AMStringPart1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		8EDA3A9A2536C31E0045D1FD /* AMFunctionPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMFunctionPart2.swift; sourceTree = "<group>"; };
 		8EDA3A9E2536D24E0045D1FD /* AMBlocksPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBlocksPart1.swift; sourceTree = "<group>"; };
 		8EDA3AA22536E29F0045D1FD /* AMBlocksPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBlocksPart2.swift; sourceTree = "<group>"; };
+		8EDA3CB12538263F0045D1FD /* AMStringPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMStringPart1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8EDA3CB0253825EC0045D1FD /* 字符串和字符 */,
 				8EDA3A9D2536D2220045D1FD /* 闭包 */,
 				8EDA3A962536AA520045D1FD /* 函数 */,
 				8EDA3A8E253692A80045D1FD /* 属性 */,
@@ -154,6 +157,14 @@
 			path = "闭包";
 			sourceTree = "<group>";
 		};
+		8EDA3CB0253825EC0045D1FD /* 字符串和字符 */ = {
+			isa = PBXGroup;
+			children = (
+				8EDA3CB12538263F0045D1FD /* AMStringPart1.swift */,
+			);
+			path = "字符串和字符";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDA3CB22538263F0045D1FD /* AMStringPart1.swift in Sources */,
 				8EDA3A9F2536D24E0045D1FD /* AMBlocksPart1.swift in Sources */,
 				8EDA3A9425369D6C0045D1FD /* AMPropertyPart2.swift in Sources */,
 				8EDA39C1253548890045D1FD /* AMBasicsPart4.swift in Sources */,

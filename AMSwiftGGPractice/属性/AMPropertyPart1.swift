@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AMPropertyPart1: NSObject {
+class AMPropertyPart1 {
     func SetupTest() {
         Test()
         Test1()

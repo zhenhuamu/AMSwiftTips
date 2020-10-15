@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AMFunctionPart2: NSObject {
+class AMFunctionPart2 {
     func SetupTest() {
         Test()
         Test1()
