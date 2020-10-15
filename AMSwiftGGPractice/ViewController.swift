@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         
         AMBlocksPart1().SetupTest()
         AMBlocksPart2().SetupTest()
+        
+        AMStringPart1().SetupTest()
+        
     }
 }
 
