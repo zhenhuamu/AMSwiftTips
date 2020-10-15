@@ -27,6 +27,7 @@
 		8EDA3A9F2536D24E0045D1FD /* AMBlocksPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3A9E2536D24E0045D1FD /* AMBlocksPart1.swift */; };
 		8EDA3AA32536E29F0045D1FD /* AMBlocksPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3AA22536E29F0045D1FD /* AMBlocksPart2.swift */; };
 		8EDA3CB22538263F0045D1FD /* AMStringPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3CB12538263F0045D1FD /* AMStringPart1.swift */; };
+		8EDA3CB6253830FB0045D1FD /* AMStringPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3CB5253830FB0045D1FD /* AMStringPart2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		8EDA3A9E2536D24E0045D1FD /* AMBlocksPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBlocksPart1.swift; sourceTree = "<group>"; };
 		8EDA3AA22536E29F0045D1FD /* AMBlocksPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBlocksPart2.swift; sourceTree = "<group>"; };
 		8EDA3CB12538263F0045D1FD /* AMStringPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMStringPart1.swift; sourceTree = "<group>"; };
+		8EDA3CB5253830FB0045D1FD /* AMStringPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMStringPart2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				8EDA3CB12538263F0045D1FD /* AMStringPart1.swift */,
+				8EDA3CB5253830FB0045D1FD /* AMStringPart2.swift */,
 			);
 			path = "字符串和字符";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				8EDA3A982536AA760045D1FD /* AMFunctionPart1.swift in Sources */,
 				8EDA3A90253693020045D1FD /* AMPropertyPart1.swift in Sources */,
 				8EDA39BC25345CBC0045D1FD /* AMBasicsPart2.swift in Sources */,
+				8EDA3CB6253830FB0045D1FD /* AMStringPart2.swift in Sources */,
 				8EDA3A8425359FC10045D1FD /* AMClassAndStructPart1.swift in Sources */,
 				8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */,
 				8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */,
