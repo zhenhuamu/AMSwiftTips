@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E513C6225427766003A2EA4 /* AMEnumPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C6125427766003A2EA4 /* AMEnumPart1.swift */; };
+		8E513C67254284DE003A2EA4 /* AMMethodsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */; };
 		8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E59160B2534934700074303 /* AMBasicsPart3.swift */; };
 		8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA399E25344AEA0045D1FD /* AppDelegate.swift */; };
 		8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		8E513C6125427766003A2EA4 /* AMEnumPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEnumPart1.swift; sourceTree = "<group>"; };
+		8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMMethodsPart1.swift; sourceTree = "<group>"; };
 		8E59160B2534934700074303 /* AMBasicsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsPart3.swift; sourceTree = "<group>"; };
 		8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwiftGGPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDA399E25344AEA0045D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 			path = "枚举";
 			sourceTree = "<group>";
 		};
+		8E513C6525428483003A2EA4 /* 方法 */ = {
+			isa = PBXGroup;
+			children = (
+				8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */,
+			);
+			path = "方法";
+			sourceTree = "<group>";
+		};
 		8EDA399225344AEA0045D1FD = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8E513C6525428483003A2EA4 /* 方法 */,
 				8EDA3A8E253692A80045D1FD /* 属性 */,
 				8EDA3A8225359F7B0045D1FD /* 类和结构体 */,
 				8E513C6025427529003A2EA4 /* 枚举 */,
@@ -298,6 +309,7 @@
 				8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */,
 				8EDA3D8B253D38E10045D1FD /* AMIfPart1.swift in Sources */,
 				8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */,
+				8E513C67254284DE003A2EA4 /* AMMethodsPart1.swift in Sources */,
 				8EDA39C5253550C10045D1FD /* AMBasicsOperatorPart1.swift in Sources */,
 				8EDA39B625344BD60045D1FD /* AMBasicsPart1.swift in Sources */,
 				8EDA39C9253570DC0045D1FD /* AMBasicsOperatorPart2.swift in Sources */,
