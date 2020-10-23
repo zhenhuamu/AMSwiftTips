@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         //构造过程
         AMInitPart1().SetupTest()
         AMInitPart2().SetupTest()
-        
+        AMInitPart3().SetupTest()
     }
 }
 

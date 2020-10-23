@@ -13,6 +13,7 @@
 		8E513C722542B441003A2EA4 /* AMInheritPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C712542B441003A2EA4 /* AMInheritPart1.swift */; };
 		8E513C772542BAB8003A2EA4 /* AMInitPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C762542BAB8003A2EA4 /* AMInitPart1.swift */; };
 		8E513C7B2542C3A4003A2EA4 /* AMInitPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C7A2542C3A4003A2EA4 /* AMInitPart2.swift */; };
+		8E513C7E2542D904003A2EA4 /* AMInitPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C7D2542D904003A2EA4 /* AMInitPart3.swift */; };
 		8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E59160B2534934700074303 /* AMBasicsPart3.swift */; };
 		8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA399E25344AEA0045D1FD /* AppDelegate.swift */; };
 		8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */; };
@@ -48,6 +49,7 @@
 		8E513C712542B441003A2EA4 /* AMInheritPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMInheritPart1.swift; sourceTree = "<group>"; };
 		8E513C762542BAB8003A2EA4 /* AMInitPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMInitPart1.swift; sourceTree = "<group>"; };
 		8E513C7A2542C3A4003A2EA4 /* AMInitPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMInitPart2.swift; sourceTree = "<group>"; };
+		8E513C7D2542D904003A2EA4 /* AMInitPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMInitPart3.swift; sourceTree = "<group>"; };
 		8E59160B2534934700074303 /* AMBasicsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsPart3.swift; sourceTree = "<group>"; };
 		8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwiftGGPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDA399E25344AEA0045D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				8E513C762542BAB8003A2EA4 /* AMInitPart1.swift */,
 				8E513C7A2542C3A4003A2EA4 /* AMInitPart2.swift */,
+				8E513C7D2542D904003A2EA4 /* AMInitPart3.swift */,
 			);
 			path = "构造过程";
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E513C7E2542D904003A2EA4 /* AMInitPart3.swift in Sources */,
 				8EDA3CB22538263F0045D1FD /* AMStringPart1.swift in Sources */,
 				8EDA3A9F2536D24E0045D1FD /* AMBlocksPart1.swift in Sources */,
 				8EDA3D1725384AC30045D1FD /* AMSetPart2.swift in Sources */,
