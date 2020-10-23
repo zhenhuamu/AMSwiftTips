@@ -10,6 +10,7 @@
 		8E513C6225427766003A2EA4 /* AMEnumPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C6125427766003A2EA4 /* AMEnumPart1.swift */; };
 		8E513C67254284DE003A2EA4 /* AMMethodsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */; };
 		8E513C6D2542A5BE003A2EA4 /* AMSubscriptPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C6C2542A5BE003A2EA4 /* AMSubscriptPart1.swift */; };
+		8E513C722542B441003A2EA4 /* AMInheritPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C712542B441003A2EA4 /* AMInheritPart1.swift */; };
 		8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E59160B2534934700074303 /* AMBasicsPart3.swift */; };
 		8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA399E25344AEA0045D1FD /* AppDelegate.swift */; };
 		8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */; };
@@ -42,6 +43,7 @@
 		8E513C6125427766003A2EA4 /* AMEnumPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEnumPart1.swift; sourceTree = "<group>"; };
 		8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMMethodsPart1.swift; sourceTree = "<group>"; };
 		8E513C6C2542A5BE003A2EA4 /* AMSubscriptPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSubscriptPart1.swift; sourceTree = "<group>"; };
+		8E513C712542B441003A2EA4 /* AMInheritPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMInheritPart1.swift; sourceTree = "<group>"; };
 		8E59160B2534934700074303 /* AMBasicsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsPart3.swift; sourceTree = "<group>"; };
 		8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwiftGGPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDA399E25344AEA0045D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 			path = "下标";
 			sourceTree = "<group>";
 		};
+		8E513C702542B3D4003A2EA4 /* 继承 */ = {
+			isa = PBXGroup;
+			children = (
+				8E513C712542B441003A2EA4 /* AMInheritPart1.swift */,
+			);
+			path = "继承";
+			sourceTree = "<group>";
+		};
 		8EDA399225344AEA0045D1FD = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,7 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8E513C702542B3D4003A2EA4 /* 继承 */,
 				8E513C6B2542A500003A2EA4 /* 下标 */,
 				8E513C6525428483003A2EA4 /* 方法 */,
 				8EDA3A8E253692A80045D1FD /* 属性 */,
@@ -327,6 +338,7 @@
 				8E513C6D2542A5BE003A2EA4 /* AMSubscriptPart1.swift in Sources */,
 				8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */,
 				8EDA3A9B2536C31E0045D1FD /* AMFunctionPart2.swift in Sources */,
+				8E513C722542B441003A2EA4 /* AMInheritPart1.swift in Sources */,
 				8E513C6225427766003A2EA4 /* AMEnumPart1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
