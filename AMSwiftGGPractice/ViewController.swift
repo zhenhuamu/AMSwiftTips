@@ -74,8 +74,8 @@ class ViewController: UIViewController {
         // 析构过程
         AMDeinitPart3().SetupTest()
         
-        
-        
+        // 可选链
+        AMOptionalPart1().SetupTest()
         
         
         

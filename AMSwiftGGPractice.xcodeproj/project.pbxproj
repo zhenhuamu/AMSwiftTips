@@ -15,6 +15,7 @@
 		8E513C7B2542C3A4003A2EA4 /* AMInitPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C7A2542C3A4003A2EA4 /* AMInitPart2.swift */; };
 		8E513C7E2542D904003A2EA4 /* AMInitPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C7D2542D904003A2EA4 /* AMInitPart3.swift */; };
 		8E513C822542E3F1003A2EA4 /* AMDeinitPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C812542E3F1003A2EA4 /* AMDeinitPart3.swift */; };
+		8E513C872542E751003A2EA4 /* AMOptionalPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C862542E751003A2EA4 /* AMOptionalPart1.swift */; };
 		8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E59160B2534934700074303 /* AMBasicsPart3.swift */; };
 		8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA399E25344AEA0045D1FD /* AppDelegate.swift */; };
 		8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */; };
@@ -52,6 +53,7 @@
 		8E513C7A2542C3A4003A2EA4 /* AMInitPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMInitPart2.swift; sourceTree = "<group>"; };
 		8E513C7D2542D904003A2EA4 /* AMInitPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMInitPart3.swift; sourceTree = "<group>"; };
 		8E513C812542E3F1003A2EA4 /* AMDeinitPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDeinitPart3.swift; sourceTree = "<group>"; };
+		8E513C862542E751003A2EA4 /* AMOptionalPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMOptionalPart1.swift; sourceTree = "<group>"; };
 		8E59160B2534934700074303 /* AMBasicsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsPart3.swift; sourceTree = "<group>"; };
 		8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwiftGGPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDA399E25344AEA0045D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 			path = "析构过程";
 			sourceTree = "<group>";
 		};
+		8E513C852542E5D8003A2EA4 /* 可选链 */ = {
+			isa = PBXGroup;
+			children = (
+				8E513C862542E751003A2EA4 /* AMOptionalPart1.swift */,
+			);
+			path = "可选链";
+			sourceTree = "<group>";
+		};
 		8EDA399225344AEA0045D1FD = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +172,7 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8E513C852542E5D8003A2EA4 /* 可选链 */,
 				8E513C802542E3C7003A2EA4 /* 析构过程 */,
 				8E513C752542BA8A003A2EA4 /* 构造过程 */,
 				8E513C702542B3D4003A2EA4 /* 继承 */,
@@ -353,6 +364,7 @@
 				8EDA3A982536AA760045D1FD /* AMFunctionPart1.swift in Sources */,
 				8EDA3A90253693020045D1FD /* AMPropertyPart1.swift in Sources */,
 				8EDA39BC25345CBC0045D1FD /* AMBasicsPart2.swift in Sources */,
+				8E513C872542E751003A2EA4 /* AMOptionalPart1.swift in Sources */,
 				8EDA3CB6253830FB0045D1FD /* AMStringPart2.swift in Sources */,
 				8EDA3A8425359FC10045D1FD /* AMClassAndStructPart1.swift in Sources */,
 				8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */,
