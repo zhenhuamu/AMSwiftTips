@@ -62,6 +62,14 @@ class ViewController: UIViewController {
         
         // 下标
         AMSubscriptPart1().SetupTest()
+        
+        // 继承
+        AMInheritPart1().SetupTest()
+        
+        //构造过程
+        AMInitPart1().SetupTest()
+        AMInitPart2().SetupTest()
+        
     }
 }
 
