@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // 参考：https://swiftgg.gitbook.io/swift/huan-ying-shi-yong-swift
+        
         //基础部分
         AMBasicsPart1().SetupTest()
         AMBasicsPart2().SetupTest()
@@ -45,6 +47,8 @@ class ViewController: UIViewController {
         AMBlocksPart1().SetupTest()
         AMBlocksPart2().SetupTest()
         
+        // 枚举
+        AMEnumPart1().SetupTest()
         
 //        AMClassAndStructPart1().SetupTest()
 //
