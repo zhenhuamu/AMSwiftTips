@@ -60,8 +60,8 @@ class ViewController: UIViewController {
         // 方法
         AMMethodsPart1().SetupTest()
         
-        
-        
+        // 下标
+        AMSubscriptPart1().SetupTest()
     }
 }
 
