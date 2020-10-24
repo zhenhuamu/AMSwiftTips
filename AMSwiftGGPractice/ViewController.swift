@@ -83,6 +83,14 @@ class ViewController: UIViewController {
         // 类型转换
         AMAsPart1().SetupTest()
         
+        // 扩展
+        AMExtensionPart1().SetupTest()
+        
+        // 协议
+        AMProtocolPart1().SetupTest()
+        AMProtocolPart2().SetupTest()
+        AMProtocolPart3().SetupTest()
+        AMProtocolPart4().SetupTest()
     }
 }
 
