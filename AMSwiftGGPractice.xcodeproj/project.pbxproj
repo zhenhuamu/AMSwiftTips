@@ -17,6 +17,8 @@
 		8E513C822542E3F1003A2EA4 /* AMDeinitPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C812542E3F1003A2EA4 /* AMDeinitPart3.swift */; };
 		8E513C872542E751003A2EA4 /* AMOptionalPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C862542E751003A2EA4 /* AMOptionalPart1.swift */; };
 		8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E59160B2534934700074303 /* AMBasicsPart3.swift */; };
+		8E5916132543B98800074303 /* AMErrorPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5916122543B98800074303 /* AMErrorPart1.swift */; };
+		8E5916182543BFA800074303 /* AMAsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5916172543BFA800074303 /* AMAsPart1.swift */; };
 		8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA399E25344AEA0045D1FD /* AppDelegate.swift */; };
 		8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */; };
 		8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A225344AEA0045D1FD /* ViewController.swift */; };
@@ -55,6 +57,8 @@
 		8E513C812542E3F1003A2EA4 /* AMDeinitPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDeinitPart3.swift; sourceTree = "<group>"; };
 		8E513C862542E751003A2EA4 /* AMOptionalPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMOptionalPart1.swift; sourceTree = "<group>"; };
 		8E59160B2534934700074303 /* AMBasicsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsPart3.swift; sourceTree = "<group>"; };
+		8E5916122543B98800074303 /* AMErrorPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMErrorPart1.swift; sourceTree = "<group>"; };
+		8E5916172543BFA800074303 /* AMAsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAsPart1.swift; sourceTree = "<group>"; };
 		8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwiftGGPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDA399E25344AEA0045D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +157,22 @@
 			path = "可选链";
 			sourceTree = "<group>";
 		};
+		8E5916112543B8E300074303 /* 错误处理 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5916122543B98800074303 /* AMErrorPart1.swift */,
+			);
+			path = "错误处理";
+			sourceTree = "<group>";
+		};
+		8E5916162543BF7900074303 /* 类型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5916172543BFA800074303 /* AMAsPart1.swift */,
+			);
+			path = "类型转换";
+			sourceTree = "<group>";
+		};
 		8EDA399225344AEA0045D1FD = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +192,8 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8E5916162543BF7900074303 /* 类型转换 */,
+				8E5916112543B8E300074303 /* 错误处理 */,
 				8E513C852542E5D8003A2EA4 /* 可选链 */,
 				8E513C802542E3C7003A2EA4 /* 析构过程 */,
 				8E513C752542BA8A003A2EA4 /* 构造过程 */,
@@ -354,6 +376,7 @@
 			files = (
 				8E513C7E2542D904003A2EA4 /* AMInitPart3.swift in Sources */,
 				8EDA3CB22538263F0045D1FD /* AMStringPart1.swift in Sources */,
+				8E5916182543BFA800074303 /* AMAsPart1.swift in Sources */,
 				8EDA3A9F2536D24E0045D1FD /* AMBlocksPart1.swift in Sources */,
 				8EDA3D1725384AC30045D1FD /* AMSetPart2.swift in Sources */,
 				8EDA3A9425369D6C0045D1FD /* AMPropertyPart2.swift in Sources */,
@@ -375,6 +398,7 @@
 				8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */,
 				8E513C67254284DE003A2EA4 /* AMMethodsPart1.swift in Sources */,
 				8EDA39C5253550C10045D1FD /* AMBasicsOperatorPart1.swift in Sources */,
+				8E5916132543B98800074303 /* AMErrorPart1.swift in Sources */,
 				8EDA39B625344BD60045D1FD /* AMBasicsPart1.swift in Sources */,
 				8EDA39C9253570DC0045D1FD /* AMBasicsOperatorPart2.swift in Sources */,
 				8E513C772542BAB8003A2EA4 /* AMInitPart1.swift in Sources */,

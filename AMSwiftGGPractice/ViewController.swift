@@ -77,8 +77,11 @@ class ViewController: UIViewController {
         // 可选链
         AMOptionalPart1().SetupTest()
         
+        // 错误处理
+        AMErrorPart1().SetupTest()
         
-        
+        // 类型转换
+        AMAsPart1().SetupTest()
         
     }
 }
