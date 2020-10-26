@@ -24,6 +24,8 @@
 		8E91C4B52543DA0500185C41 /* AMProtocolPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4B42543DA0500185C41 /* AMProtocolPart2.swift */; };
 		8E91C4B82543E0F100185C41 /* AMProtocolPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4B72543E0F100185C41 /* AMProtocolPart3.swift */; };
 		8E91C4BB2543E71A00185C41 /* AMProtocolPart4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4BA2543E71A00185C41 /* AMProtocolPart4.swift */; };
+		8E91C4BF2545BE1E00185C41 /* AMFanPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4BE2545BE1E00185C41 /* AMFanPart1.swift */; };
+		8E91C4C425464EA300185C41 /* AMLimitsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4C325464EA300185C41 /* AMLimitsPart1.swift */; };
 		8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA399E25344AEA0045D1FD /* AppDelegate.swift */; };
 		8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */; };
 		8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA39A225344AEA0045D1FD /* ViewController.swift */; };
@@ -69,6 +71,8 @@
 		8E91C4B42543DA0500185C41 /* AMProtocolPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart2.swift; sourceTree = "<group>"; };
 		8E91C4B72543E0F100185C41 /* AMProtocolPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart3.swift; sourceTree = "<group>"; };
 		8E91C4BA2543E71A00185C41 /* AMProtocolPart4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart4.swift; sourceTree = "<group>"; };
+		8E91C4BE2545BE1E00185C41 /* AMFanPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMFanPart1.swift; sourceTree = "<group>"; };
+		8E91C4C325464EA300185C41 /* AMLimitsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMLimitsPart1.swift; sourceTree = "<group>"; };
 		8EDA399B25344AEA0045D1FD /* AMSwiftGGPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSwiftGGPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDA399E25344AEA0045D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -209,6 +213,22 @@
 			path = "协议";
 			sourceTree = "<group>";
 		};
+		8E91C4BD2545BD8500185C41 /* 泛型 */ = {
+			isa = PBXGroup;
+			children = (
+				8E91C4BE2545BE1E00185C41 /* AMFanPart1.swift */,
+			);
+			path = "泛型";
+			sourceTree = "<group>";
+		};
+		8E91C4C225464E6A00185C41 /* 访问控制 */ = {
+			isa = PBXGroup;
+			children = (
+				8E91C4C325464EA300185C41 /* AMLimitsPart1.swift */,
+			);
+			path = "访问控制";
+			sourceTree = "<group>";
+		};
 		8EDA399225344AEA0045D1FD = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +248,8 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8E91C4C225464E6A00185C41 /* 访问控制 */,
+				8E91C4BD2545BD8500185C41 /* 泛型 */,
 				8E91C4AF2543D27300185C41 /* 协议 */,
 				8E91C4AA2543CC6500185C41 /* 扩展 */,
 				8E91C4A92543CC5C00185C41 /* 嵌套类型 */,
@@ -427,7 +449,9 @@
 				8EDA3A982536AA760045D1FD /* AMFunctionPart1.swift in Sources */,
 				8EDA3A90253693020045D1FD /* AMPropertyPart1.swift in Sources */,
 				8EDA39BC25345CBC0045D1FD /* AMBasicsPart2.swift in Sources */,
+				8E91C4BF2545BE1E00185C41 /* AMFanPart1.swift in Sources */,
 				8E513C872542E751003A2EA4 /* AMOptionalPart1.swift in Sources */,
+				8E91C4C425464EA300185C41 /* AMLimitsPart1.swift in Sources */,
 				8EDA3CB6253830FB0045D1FD /* AMStringPart2.swift in Sources */,
 				8EDA3A8425359FC10045D1FD /* AMClassAndStructPart1.swift in Sources */,
 				8EDA39A325344AEA0045D1FD /* ViewController.swift in Sources */,
