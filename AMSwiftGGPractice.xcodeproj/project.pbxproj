@@ -19,6 +19,7 @@
 		8E59160C2534934700074303 /* AMBasicsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E59160B2534934700074303 /* AMBasicsPart3.swift */; };
 		8E5916132543B98800074303 /* AMErrorPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5916122543B98800074303 /* AMErrorPart1.swift */; };
 		8E5916182543BFA800074303 /* AMAsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5916172543BFA800074303 /* AMAsPart1.swift */; };
+		8E5BB209255FED9900C5BBD8 /* help in Resources */ = {isa = PBXBuildFile; fileRef = 8E5BB208255FED9900C5BBD8 /* help */; };
 		8E91C4AC2543CCA100185C41 /* AMExtensionPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4AB2543CCA100185C41 /* AMExtensionPart1.swift */; };
 		8E91C4B12543D2B600185C41 /* AMProtocolPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4B02543D2B600185C41 /* AMProtocolPart1.swift */; };
 		8E91C4B52543DA0500185C41 /* AMProtocolPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4B42543DA0500185C41 /* AMProtocolPart2.swift */; };
@@ -66,6 +67,7 @@
 		8E59160B2534934700074303 /* AMBasicsPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBasicsPart3.swift; sourceTree = "<group>"; };
 		8E5916122543B98800074303 /* AMErrorPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMErrorPart1.swift; sourceTree = "<group>"; };
 		8E5916172543BFA800074303 /* AMAsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAsPart1.swift; sourceTree = "<group>"; };
+		8E5BB208255FED9900C5BBD8 /* help */ = {isa = PBXFileReference; lastKnownFileType = text; path = help; sourceTree = "<group>"; };
 		8E91C4AB2543CCA100185C41 /* AMExtensionPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMExtensionPart1.swift; sourceTree = "<group>"; };
 		8E91C4B02543D2B600185C41 /* AMProtocolPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart1.swift; sourceTree = "<group>"; };
 		8E91C4B42543DA0500185C41 /* AMProtocolPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart2.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 		8EDA39B425344B870045D1FD /* 基础部分 */ = {
 			isa = PBXGroup;
 			children = (
+				8E5BB208255FED9900C5BBD8 /* help */,
 				8EDA39B525344BD60045D1FD /* AMBasicsPart1.swift */,
 				8EDA39BB25345CBC0045D1FD /* AMBasicsPart2.swift */,
 				8E59160B2534934700074303 /* AMBasicsPart3.swift */,
@@ -423,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDA39AB25344AEB0045D1FD /* LaunchScreen.storyboard in Resources */,
+				8E5BB209255FED9900C5BBD8 /* help in Resources */,
 				8EDA39A825344AEB0045D1FD /* Assets.xcassets in Resources */,
 				8EDA39A625344AEA0045D1FD /* Main.storyboard in Resources */,
 			);
