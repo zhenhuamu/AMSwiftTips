@@ -12,8 +12,7 @@ class AMFunctionPart2 {
         Test()
         Test1()
     }
-    ///------------------------函数参数标签和参数名称--------------------------///
-    /* 每个函数参数都有一个参数标签（argument label）以及一个参数名称（parameter name）。参数标签在调用函数的时候使用；调用的时候需要将函数的参数标签写在对应的参数前面。参数名称在函数的实现中使用。默认情况下，函数参数使用参数名称来作为它们的参数标签。*/
+    // MARK: 1.1 =========================== 函数参数标签和参数名称
     func Test() {
         func someFunction(firstParameterName: Int, secondParameterName: Int) {
             // 在函数体内，firstParameterName 和 secondParameterName 代表参数中的第一个和第二个参数值
@@ -73,7 +72,7 @@ class AMFunctionPart2 {
         /* 输入输出参数和返回值是不一样的。上面的 swapTwoInts 函数并没有定义任何返回值，但仍然修改了 someInt 和 anotherInt 的值。输入输出参数是函数对函数体外产生影响的另一种方式。*/
     }
     
-    ///-----------------------------函数类型--------------------------------///
+    // MARK: 1.2 =========================== 函数类型
     func Test1() {
         // 每个函数都有种特定的函数类型，函数的类型由函数的参数类型和返回类型组成。
         func addTwoInts(_ a: Int, _ b: Int) -> Int {
@@ -137,7 +136,7 @@ class AMFunctionPart2 {
         // zero!
     }
     
-    ///-----------------------------嵌套函数--------------------------------///
+    // MARK: 1.3 =========================== 嵌套函数
     /* 到目前为止本章中你所见到的所有函数都叫全局函数（global functions），它们定义在全局域中。
      你也可以把函数定义在别的函数体中，称作 嵌套函数（nested functions）。*/
     func chooseStepFunction(backward: Bool) -> (Int) -> Int {

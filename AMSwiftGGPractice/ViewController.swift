@@ -37,11 +37,11 @@ class ViewController: UIViewController {
 //
 //        // 控制流
 //        AMIfPart1().SetupTest()
-        AMIfPart2().SetupTest()
+//        AMIfPart2().SetupTest()
 //
 //        // 函数
 //        AMFunctionPart1().SetupTest()
-//        AMFunctionPart2().SetupTest()
+        AMFunctionPart2().SetupTest()
 //
 //        // 闭包
 //        AMBlocksPart1().SetupTest()
