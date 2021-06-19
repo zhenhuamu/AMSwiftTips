@@ -15,15 +15,8 @@ class AMIfPart2 {
         Test3()
         Test4()
     }
-    /*
-     控制转移语句改变你代码的执行顺序，通过它可以实现代码的跳转。Swift 有五种控制转移语句：
-     continue
-     break
-     fallthrough
-     return
-     throw
-     */
-    ///------------------------continue--------------------------///
+
+    // MARK: 1.1 =========================== continue
     func Test() {
         /* continue 语句告诉一个循环体立刻停止本次循环，重新开始下次循环。
         就好像在说“本次循环我已经执行完了”，但是并不会离开整个循环体。*/
@@ -40,7 +33,8 @@ class AMIfPart2 {
         print(puzzleOutput)
         // 输出“grtmndsthnklk”
     }
-    ///------------------------break--------------------------///
+    
+    // MARK: 1.2 =========================== break
     func Test1() {
         /* break 语句会立刻结束整个控制流的执行。
         break 可以在 switch 或循环语句中使用，用来提前结束 switch 或循环语句。*/
@@ -65,7 +59,8 @@ class AMIfPart2 {
         }
         // 输出“The integer value of 三 is 3.”
     }
-    ///------------------------Fallthrough--------------------------///
+    
+    // MARK: 1.3 =========================== Fallthrough
     /* fallthrough 关键字不会检查它下一个将会落入执行的 case 中的匹配条件。fallthrough 简单地使代码继续连接到下一个 case 中的代码，这和 C 语言标准中的 switch 语句特性是一样的。*/
     func Test2() {
         let integerToDescribe = 5
@@ -80,9 +75,10 @@ class AMIfPart2 {
         print(description)
         // 输出“The number 5 is a prime number, and also an integer.”
     }
-    ///------------------------带标签的语句--------------------------///
+    
+    // MARK: 1.4 =========================== 带标签的语句
 
-    ///------------------------提前退出--------------------------///
+    // MARK: 1.5 =========================== 提前退出
     /* 像 if 语句一样，guard 的执行取决于一个表达式的布尔值。
     我们可以使用 guard 语句来要求条件必须为真时，以执行 guard 语句后的代码。
     不同于 if 语句，一个 guard 语句总是有一个 else 从句，如果条件不为真则执行 else 从句中的代码。*/
@@ -110,7 +106,7 @@ class AMIfPart2 {
         // 输出“I hope the weather is nice in Cupertino.”
     }
     
-    ///------------------------检测 API 可用性--------------------------///
+    // MARK: 1.6 =========================== 检测 API 可用性
     /* 我们在 if 或 guard 语句中使用 可用性条件（availability condition)去有条件的执行一段代码，
     来在运行时判断调用的 API 是否可用。编译器使用从可用性条件语句中获取的信息去验证，在这个代码块中调用的 API 是否可用。*/
     func Test4() {
