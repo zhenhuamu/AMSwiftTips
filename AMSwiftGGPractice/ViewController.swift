@@ -45,10 +45,10 @@ class ViewController: UIViewController {
 //
 //        // 闭包
 //        AMBlocksPart1().SetupTest()
-        AMBlocksPart2().SetupTest()
+//        AMBlocksPart2().SetupTest()
 //
 //        // 枚举
-//        AMEnumPart1().SetupTest()
+        AMEnumPart1().SetupTest()
 //
 //        // 类和结构体
 //        AMClassAndStructPart1().SetupTest()
