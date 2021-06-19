@@ -13,14 +13,7 @@ class AMSetPart3 {
         Test1()
     }
     
-    ///------------------------字典--------------------------///
-    /*字典是一种无序的集合，它存储的是键值对之间的关系，其所有键的值需要是相同的类型，所有值的类型也需要相同
-    每个值（value）都关联唯一的键（key），键作为字典中这个值数据的标识符。
-    和数组中的数据项不同，字典中的数据项并没有具体顺序。
-    你在需要通过标识符（键）访问数据的时候使用字典，
-    这种方法很大程度上和在现实世界中使用字典查字义的方法一样。*/
-    
-    //一个字典的 Key 类型必须遵循 Hashable 协议，就像 Set 的值类型。
+    // MARK: 1.1 =========================== 字典
     func Test() {
         // 创建一个空字典
         var namesOfIntegers = [Int: String]()
@@ -78,7 +71,7 @@ class AMSetPart3 {
         // 打印“The removed airport's name is Dublin Airport.”
     }
     
-    ///------------------------字典遍历--------------------------///
+    // MARK: 1.2 =========================== 字典遍历
     func Test1() {
         let airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
         for (airportCode, airportName) in airports {

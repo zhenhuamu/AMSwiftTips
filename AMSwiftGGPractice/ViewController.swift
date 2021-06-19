@@ -28,12 +28,12 @@ class ViewController: UIViewController {
 //
 //        //字符串和字符
 //        AMStringPart1().SetupTest()
-        AMStringPart2().SetupTest()
+//        AMStringPart2().SetupTest()
 //
 //        // 集合类型
 //        AMSetPart1().SetupTest()
 //        AMSetPart2().SetupTest()
-//        AMSetPart3().SetupTest()
+        AMSetPart3().SetupTest()
 //
 //        // 控制流
 //        AMIfPart1().SetupTest()
