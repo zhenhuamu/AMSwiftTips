@@ -27,8 +27,8 @@ class ViewController: UIViewController {
 //        AMBasicsOperatorPart2().SetupTest()
 //
 //        //字符串和字符
-        AMStringPart1().SetupTest()
-//        AMStringPart2().SetupTest()
+//        AMStringPart1().SetupTest()
+        AMStringPart2().SetupTest()
 //
 //        // 集合类型
 //        AMSetPart1().SetupTest()
