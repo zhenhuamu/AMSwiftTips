@@ -10,6 +10,8 @@ import Foundation
 class AMBasicsPart4 {
     func SetupTest() {
         Test1()
+        Test2()
+        Test3()
     }
     
     // MARK: 1.13 =========================== 错误处理
