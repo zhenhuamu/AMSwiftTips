@@ -78,10 +78,10 @@ class ViewController: UIViewController {
 //        AMOptionalPart1().SetupTest()
 //
 //        // 错误处理
-        AMErrorPart1().SetupTest()
+//        AMErrorPart1().SetupTest()
 //
 //        // 类型转换
-//        AMAsPart1().SetupTest()
+        AMAsPart1().SetupTest()
 //
 //        // 扩展
 //        AMExtensionPart1().SetupTest()
