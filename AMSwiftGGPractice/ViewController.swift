@@ -58,10 +58,10 @@ class ViewController: UIViewController {
 //        AMPropertyPart2().SetupTest()
 //
 //        // 方法
-        AMMethodsPart1().SetupTest()
+//        AMMethodsPart1().SetupTest()
 //
 //        // 下标
-//        AMSubscriptPart1().SetupTest()
+        AMSubscriptPart1().SetupTest()
 //
 //        // 继承
 //        AMInheritPart1().SetupTest()
