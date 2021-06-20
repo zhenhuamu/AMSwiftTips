@@ -51,11 +51,11 @@ class ViewController: UIViewController {
 //        AMEnumPart1().SetupTest()
 //
 //        // 类和结构体
-        AMClassAndStructPart1().SetupTest()
+//        AMClassAndStructPart1().SetupTest()
 //
 //        // 属性
 //        AMPropertyPart1().SetupTest()
-//        AMPropertyPart2().SetupTest()
+        AMPropertyPart2().SetupTest()
 //
 //        // 方法
 //        AMMethodsPart1().SetupTest()
