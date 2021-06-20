@@ -55,10 +55,10 @@ class ViewController: UIViewController {
 //
 //        // 属性
 //        AMPropertyPart1().SetupTest()
-        AMPropertyPart2().SetupTest()
+//        AMPropertyPart2().SetupTest()
 //
 //        // 方法
-//        AMMethodsPart1().SetupTest()
+        AMMethodsPart1().SetupTest()
 //
 //        // 下标
 //        AMSubscriptPart1().SetupTest()
