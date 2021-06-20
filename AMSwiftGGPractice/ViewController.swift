@@ -64,12 +64,12 @@ class ViewController: UIViewController {
 //        AMSubscriptPart1().SetupTest()
 //
 //        // 继承
-        AMInheritPart1().SetupTest()
+//        AMInheritPart1().SetupTest()
 //
 //        // 构造过程
 //        AMInitPart1().SetupTest()
 //        AMInitPart2().SetupTest()
-//        AMInitPart3().SetupTest()
+        AMInitPart3().SetupTest()
 //
 //        // 析构过程
 //        AMDeinitPart3().SetupTest()
