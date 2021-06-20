@@ -75,10 +75,10 @@ class ViewController: UIViewController {
 //        AMDeinitPart3().SetupTest()
 //
 //        // 可选链
-        AMOptionalPart1().SetupTest()
+//        AMOptionalPart1().SetupTest()
 //
 //        // 错误处理
-//        AMErrorPart1().SetupTest()
+        AMErrorPart1().SetupTest()
 //
 //        // 类型转换
 //        AMAsPart1().SetupTest()
