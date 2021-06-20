@@ -27,6 +27,7 @@
 		8E71C090267E0C4400AE3BA1 /* help6 in Resources */ = {isa = PBXBuildFile; fileRef = 8E71C08F267E0C4400AE3BA1 /* help6 */; };
 		8E71C092267E114D00AE3BA1 /* Help7 in Resources */ = {isa = PBXBuildFile; fileRef = 8E71C091267E114D00AE3BA1 /* Help7 */; };
 		8E71C094267E2A0A00AE3BA1 /* help8 in Resources */ = {isa = PBXBuildFile; fileRef = 8E71C093267E2A0A00AE3BA1 /* help8 */; };
+		8E71C096267EED2000AE3BA1 /* help9 in Resources */ = {isa = PBXBuildFile; fileRef = 8E71C095267EED2000AE3BA1 /* help9 */; };
 		8E91C4AC2543CCA100185C41 /* AMExtensionPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4AB2543CCA100185C41 /* AMExtensionPart1.swift */; };
 		8E91C4B12543D2B600185C41 /* AMProtocolPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4B02543D2B600185C41 /* AMProtocolPart1.swift */; };
 		8E91C4B52543DA0500185C41 /* AMProtocolPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4B42543DA0500185C41 /* AMProtocolPart2.swift */; };
@@ -82,6 +83,7 @@
 		8E71C08F267E0C4400AE3BA1 /* help6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = help6; sourceTree = "<group>"; };
 		8E71C091267E114D00AE3BA1 /* Help7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Help7; sourceTree = "<group>"; };
 		8E71C093267E2A0A00AE3BA1 /* help8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = help8; sourceTree = "<group>"; };
+		8E71C095267EED2000AE3BA1 /* help9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = help9; sourceTree = "<group>"; };
 		8E91C4AB2543CCA100185C41 /* AMExtensionPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMExtensionPart1.swift; sourceTree = "<group>"; };
 		8E91C4B02543D2B600185C41 /* AMProtocolPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart1.swift; sourceTree = "<group>"; };
 		8E91C4B42543DA0500185C41 /* AMProtocolPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart2.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 		8EDA3A8225359F7B0045D1FD /* 类和结构体 */ = {
 			isa = PBXGroup;
 			children = (
+				8E71C095267EED2000AE3BA1 /* help9 */,
 				8EDA3A8325359FC10045D1FD /* AMClassAndStructPart1.swift */,
 			);
 			path = "类和结构体";
@@ -449,6 +452,7 @@
 				8E71C094267E2A0A00AE3BA1 /* help8 in Resources */,
 				8EDA39AB25344AEB0045D1FD /* LaunchScreen.storyboard in Resources */,
 				8E5BB209255FED9900C5BBD8 /* help1 in Resources */,
+				8E71C096267EED2000AE3BA1 /* help9 in Resources */,
 				8EDA39A825344AEB0045D1FD /* Assets.xcassets in Resources */,
 				8E71C092267E114D00AE3BA1 /* Help7 in Resources */,
 				8E71C090267E0C4400AE3BA1 /* help6 in Resources */,
