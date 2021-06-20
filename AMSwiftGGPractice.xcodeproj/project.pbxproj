@@ -39,6 +39,7 @@
 		8E71C0A8267F7B4E00AE3BA1 /* help18 in Resources */ = {isa = PBXBuildFile; fileRef = 8E71C0A7267F7B4E00AE3BA1 /* help18 */; };
 		8E71C0AA267F7F3A00AE3BA1 /* help19 in Resources */ = {isa = PBXBuildFile; fileRef = 8E71C0A9267F7F3A00AE3BA1 /* help19 */; };
 		8E71C0AC267F817C00AE3BA1 /* help21 in Resources */ = {isa = PBXBuildFile; fileRef = 8E71C0AB267F817C00AE3BA1 /* help21 */; };
+		8E71C0AE267F830D00AE3BA1 /* help22 in Resources */ = {isa = PBXBuildFile; fileRef = 8E71C0AD267F830D00AE3BA1 /* help22 */; };
 		8E91C4AC2543CCA100185C41 /* AMExtensionPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4AB2543CCA100185C41 /* AMExtensionPart1.swift */; };
 		8E91C4B12543D2B600185C41 /* AMProtocolPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4B02543D2B600185C41 /* AMProtocolPart1.swift */; };
 		8E91C4B52543DA0500185C41 /* AMProtocolPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91C4B42543DA0500185C41 /* AMProtocolPart2.swift */; };
@@ -106,6 +107,7 @@
 		8E71C0A7267F7B4E00AE3BA1 /* help18 */ = {isa = PBXFileReference; lastKnownFileType = text; path = help18; sourceTree = "<group>"; };
 		8E71C0A9267F7F3A00AE3BA1 /* help19 */ = {isa = PBXFileReference; lastKnownFileType = text; path = help19; sourceTree = "<group>"; };
 		8E71C0AB267F817C00AE3BA1 /* help21 */ = {isa = PBXFileReference; lastKnownFileType = text; path = help21; sourceTree = "<group>"; };
+		8E71C0AD267F830D00AE3BA1 /* help22 */ = {isa = PBXFileReference; lastKnownFileType = text; path = help22; sourceTree = "<group>"; };
 		8E91C4AB2543CCA100185C41 /* AMExtensionPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMExtensionPart1.swift; sourceTree = "<group>"; };
 		8E91C4B02543D2B600185C41 /* AMProtocolPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart1.swift; sourceTree = "<group>"; };
 		8E91C4B42543DA0500185C41 /* AMProtocolPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMProtocolPart2.swift; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 		8E91C4C225464E6A00185C41 /* 访问控制 */ = {
 			isa = PBXGroup;
 			children = (
+				8E71C0AD267F830D00AE3BA1 /* help22 */,
 				8E91C4C325464EA300185C41 /* AMLimitsPart1.swift */,
 			);
 			path = "访问控制";
@@ -493,6 +496,7 @@
 				8E71C096267EED2000AE3BA1 /* help9 in Resources */,
 				8EDA39A825344AEB0045D1FD /* Assets.xcassets in Resources */,
 				8E71C092267E114D00AE3BA1 /* Help7 in Resources */,
+				8E71C0AE267F830D00AE3BA1 /* help22 in Resources */,
 				8E71C090267E0C4400AE3BA1 /* help6 in Resources */,
 				8E71C08E267DE90400AE3BA1 /* help5 in Resources */,
 				8E71C09A267EF6CF00AE3BA1 /* help11 in Resources */,

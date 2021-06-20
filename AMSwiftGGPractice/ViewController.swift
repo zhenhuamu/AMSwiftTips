@@ -84,10 +84,10 @@ class ViewController: UIViewController {
 //        AMAsPart1().SetupTest()
 //
 //        // 扩展
-        AMExtensionPart1().SetupTest()
+//        AMExtensionPart1().SetupTest()
 //
 //        // 协议
-//        AMProtocolPart1().SetupTest()
+        AMProtocolPart1().SetupTest()
 //        AMProtocolPart2().SetupTest()
 //        AMProtocolPart3().SetupTest()
 //        AMProtocolPart4().SetupTest()
