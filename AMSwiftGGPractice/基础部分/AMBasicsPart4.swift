@@ -9,21 +9,22 @@ import Foundation
 
 class AMBasicsPart4 {
     func SetupTest() {
-        Test1()
-        Test2()
-        Test3()
+        Point1()
+        Point2()
+        Point3()
     }
     
     // MARK: 1.13 =========================== 错误处理
     
     /// 你可以使用 错误处理（error handling） 来应对程序执行中可能会遇到的错误条件。
-    /// 相对于可选中运用值的存在与缺失来表达函数的成功与失败，错误处理可以推断失败的原因，并传播至程序的其他部分。
+    /// 相对于可选中运用值的存在与缺失来表达函数的成功与失败，错误处理可以推断失败的原因，
+    /// 并传播至程序的其他部分。
     
     func makeASandwich() throws {
         /// ...
     }
 
-    func Test1() {
+    func Point1() {
         do {
             try makeASandwich()
             /// 没有错误消息抛出
@@ -45,7 +46,7 @@ class AMBasicsPart4 {
     
     // MARK: 1.14.1 =========================== 使用断言进行调试
     
-    func Test2() {
+    func Point2() {
         let age = 3
         /// Swift 标准库的 assert(_:_:file:line:) 函数来写一个断言。
         /// 向这个函数传入一个结果为 true 或者 false 的表达式以及一条信息，当表达式的结果为 false 的时候这条信息会被显示
@@ -65,7 +66,7 @@ class AMBasicsPart4 {
 
     // MARK: 1.14.2 =========================== 强制执行先决条件
     
-    func Test3() {
+    func Point3() {
         let index = 10
         
         /// 你可以使用全局 precondition(_:_:file:line:) 函数来写一个先决条件。

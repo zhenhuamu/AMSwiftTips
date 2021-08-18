@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         
         //基础部分
 //        AMBasicsPart1().SetupTest()
-        AMBasicsPart2().SetupTest()
-//        AMBasicsPart3().SetupTest()
+//        AMBasicsPart2().SetupTest()
+        AMBasicsPart3().SetupTest()
 //        AMBasicsPart4().SetupTest()
         
         //基本运算符
