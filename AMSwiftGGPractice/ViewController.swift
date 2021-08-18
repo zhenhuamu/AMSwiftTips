@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // 参考：https://swiftgg.gitbook.io/swift/huan-ying-shi-yong-swift
         
         //基础部分
-//        AMBasicsPart1().SetupTest()
+        AMBasicsPart1().SetupTest()
 //        AMBasicsPart2().SetupTest()
 //        AMBasicsPart3().SetupTest()
 //        AMBasicsPart4().SetupTest()
@@ -87,7 +87,7 @@ class ViewController: UIViewController {
 //        AMExtensionPart1().SetupTest()
 //
 //        // 协议
-        AMProtocolPart1().SetupTest()
+//        AMProtocolPart1().SetupTest()
 //        AMProtocolPart2().SetupTest()
 //        AMProtocolPart3().SetupTest()
 //        AMProtocolPart4().SetupTest()

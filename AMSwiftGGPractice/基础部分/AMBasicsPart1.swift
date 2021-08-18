@@ -9,64 +9,80 @@ import Foundation
 
 class AMBasicsPart1 {
     func SetupTest() {
-        Test()
-        Test1()
-        Test2()
+        Point1()
+        Point2()
+        Point3()
+        Point4()
+        Point5()
+        Point6()
     }
     
     // MARK: 1.1 =========================== 常量和变量
     
-    // MARK: 1.1.1 =========================== 声明常量和变量
+    /// 常量和变量把一个名字（比如 maximumNumberOfLoginAttempts 或者 welcomeMessage ）和一个指定类型的值（比如数字 10 或者字符串 "Hello" ）关联起来。
+    /// 常量的值一旦设定就不能改变，而变量的值可以随意更改。
     
-    /// 常量
-    let maximumNumberOfLoginAttempts = 10
-    /// 变量
-    var currentLoginAttempt = 0
-    /// 一行中声明多个常量
-    var x = 0.0, y = 0.0, z = 0.0
+    // MARK: 1.1.1 =========================== 声明常量和变量
+    func Point1() {
+        /// 常量
+        let maximumNumberOfLoginAttempts = 10
+        /// 变量
+        var currentLoginAttempt = 0
+        /// 一行中声明多个常量
+        var x = 0.0, y = 0.0, z = 0.0
+        print(maximumNumberOfLoginAttempts,currentLoginAttempt,x,y,z)
+    }
     
     // MARK: 1.1.2 =========================== 类型注解
 
-    /// 添加类型注解，需要在常量或者变量名后面加上一个冒号和空格，然后加上类型名称
-    var welcomeMessage: String = ""
-    /// 你可以在一行中定义多个同样类型的变量，用逗号分割，并在最后一个变量名之后添加类型注解：
-    var red = 0.0, green = 0.0, blue: Double = 0.0
+    func Point2() {
+        /// 添加类型注解，需要在常量或者变量名后面加上一个冒号和空格，然后加上类型名称
+        let welcomeMessage: String = ""
+        /// 你可以在一行中定义多个同样类型的变量，用逗号分割，并在最后一个变量名之后添加类型注解：
+        let red = 0.0, green = 0.0, blue: Double = 0.0
+        print(welcomeMessage,red,green,blue)
+    }
+    // FIXME: ⚠️⚠️⚠️类型注解
+    /// 一般来说你很少需要写类型注解。
+    /// 如果你在声明常量或者变量的时候赋了一个初始值，Swift 可以推断出这个常量或者变量的类型，请参考 类型安全和类型推断。
+    /// 在上面的例子中，没有给 welcomeMessage 赋初始值，所以变量 welcomeMessage 的类型是通过一个类型注解指定的，而不是通过初始值推断的。
     
     // MARK: 1.1.3 =========================== 常量和变量的命名
 
     /// 常量和变量名可以包含任何字符，包括 Unicode 字符：
     /// 常量与变量名不能包含数学符号，箭头，保留的（或者非法的）Unicode 码位，连线与制表符。
     /// 也不能以数字开头，但是可以在常量与变量名的其他地方包含数字。
+    func Point3() {
+        let π = 3.14159
+        let 你好 = "你好世界"
+        let 🐶🐮 = "dogcow"
+        print(π,你好,🐶🐮)
+    }
     
     // FIXME: ⚠️⚠️⚠️使用关键字
     ///如果你需要使用与 Swift 保留关键字相同的名称作为常量或者变量名，你可以使用反引号（`）将关键字包围的方式将其作为名字使用。
     ///无论如何，你应当避免使用关键字作为常量或变量名，除非你别无选择。
-    
-    let π = 3.14159
-    let 你好 = "你好世界"
-    let 🐶🐮 = "dogcow"
     
     // MARK: 1.1.4 =========================== 输出常量和变量
     
     /// Xcode，print(_:separator:terminator:) 将会输出内容到“console”面板上。
     /// separator 和 terminator参数具有默认值，因此你调用这个函数的时候可以忽略它们。
     /// 默认情况下，该函数通过添加换行符来结束当前行。如果不想换行，可以传递一个空字符串给 terminator 参数 */
-    func Test() {
-        print(π)
-        print(π, terminator: "")
-        print(你好)
-        /* Swift 用字符串插值（string interpolation）的方式把常量名或者变量名当做占位符加入到长字符串中，
-           Swift 会用当前常量或变量的值替换这些占位符。
-           将常量或变量名放入圆括号中，并在开括号前使用反斜杠将其转义：*/
-        print("The current value of friendlyWelcome is \(π)")
+    func Point4() {
+        print("123")
+        print("123", terminator: "")
+        print("你好")
     }
     
     // MARK: 1.2 =========================== 注释
 
     /// Swift 中的注释与 C 语言的注释非常相似。单行注释以双正斜杠（//）作为起始标记:
+    
     // 这是一个注释
     
-    /// 你也可以进行多行注释，其起始标记为单个正斜杠后跟随一个星号（/*），终止标记为一个星号后跟随单个正斜杠（*/）:
+    /// 你也可以进行多行注释，其起始标记为单个正斜杠后跟随一个星号（/*），
+    /// 终止标记为一个星号后跟随单个正斜杠（*/）:
+    
     /* 这也是一个注释，
     但是是多行的 */
     
@@ -80,7 +96,7 @@ class AMBasicsPart1 {
     
     // MARK: 1.3 =========================== 分号
 
-    func Test1() {
+    func Point5() {
         /* 与其他大部分编程语言不同，Swift 并不强制要求你在每条语句的结尾处使用分号（;），
          当然，你也可以按照你自己的习惯添加分号。有一种情况下必须要用分号，即你打算在同一行内写多条独立的语句：*/
         let cat = "🐱"; print(cat)
@@ -92,9 +108,11 @@ class AMBasicsPart1 {
     
     // MARK: 1.4.1 =========================== 整数范围
     
-    let minValue = UInt8.min  // minValue 为 0，是 UInt8 类型
-    let maxValue = Int8.max   // maxValue 为 127，是 Int8 类型
-    func Test2() {
+    /// minValue 为 0，是 UInt8 类型
+    let minValue = UInt8.min
+    /// maxValue 为 127，是 Int8 类型
+    let maxValue = Int8.max
+    func Point6() {
         print(minValue,maxValue)
     }
     
@@ -102,6 +120,7 @@ class AMBasicsPart1 {
     
     /// 在32位平台上，Int 和 Int32 长度相同。
     /// 在64位平台上，Int 和 Int64 长度相同。
+    /// 即使是在32位平台上，Int 可以存储的整数范围也可以达到 -2,147,483,648 ~ 2,147,483,647
     
     // MARK: 1.4.3 =========================== UInt
     
@@ -121,6 +140,10 @@ class AMBasicsPart1 {
     /// Double 精确度很高，至少有15位数字，而 Float 只有6位数字。
     /// 选择哪个类型取决于你的代码需要处理的值的范围，在两种类型都匹配的情况下，将优先选择 Double
   
+    // FIXME:⚠️⚠️⚠️Double
+    /// Double 精确度很高，至少有 15 位小数，而 Float 只有 6 位小数。
+    /// 选择哪个类型取决于你的代码需要处理的值的范围，在两种类型都匹配的情况下，将优先选择 Double。
+
 }
 
 
