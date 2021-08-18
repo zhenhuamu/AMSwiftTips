@@ -9,22 +9,28 @@ import Foundation
 
 class AMBasicsPart2 {
     func SetupTest() {
-        Test()
-        Test1()
-        Test2()
+        Point1()
+        Point2()
+        Point3()
+        Point4()
+        Point5()
+        Point6()
+        Point7()
     }
     
     // MARK: 1.6 =========================== 类型安全和类型推断
-    
-    /// meaningOfLife 会被推测为 Int 类型
-    let meaningOfLife = 42
-    /// pi 会被推测为 Double 类型
+    func Point1() {
+        /// meaningOfLife 会被推测为 Int 类型
+        let meaningOfLife = 42
+        /// pi 会被推测为 Double 类型
+        let pi = 3.14159
+        /// anotherPi 会被推测为 Double 类型
+        /// 原始值 3 没有显式声明类型，而表达式中出现了一个浮点字面量，所以表达式会被推断为 Double 类型
+        let anotherPi = 3 + 0.14159
+        print(meaningOfLife,pi,anotherPi)
+    }
     // FIXME: 类型推断
     /// 当推断浮点数的类型时，Swift 总是会选择 Double 而不是 Float。
-    let pi = 3.14159
-    /// anotherPi 会被推测为 Double 类型
-    /// 原始值 3 没有显式声明类型，而表达式中出现了一个浮点字面量，所以表达式会被推断为 Double 类型
-    let anotherPi = 3 + 0.14159
     
     // MARK: 1.7 =========================== 数值型字面量
 
@@ -34,11 +40,14 @@ class AMBasicsPart2 {
     /// 一个八进制数，前缀是 0o
     /// 一个十六进制数，前缀是 0x
     
-    let decimalInteger = 17
-    let binaryInteger = 0b10001       // 二进制的17
-    let octalInteger = 0o21           // 八进制的17
-    let hexadecimalInteger = 0x11     // 十六进制的17
-    func Test() {
+    func Point2() {
+        let decimalInteger = 17
+        /// 二进制的17
+        let binaryInteger = 0b10001
+        /// 八进制的17
+        let octalInteger = 0o21
+        /// 十六进制的17
+        let hexadecimalInteger = 0x11
         print(decimalInteger,binaryInteger,octalInteger,hexadecimalInteger)
     }
     
@@ -47,16 +56,26 @@ class AMBasicsPart2 {
     /// 十进制浮点数也可以有一个可选的指数（exponent)，通过大写或者小写的 e 来指定
     /// 十六进制浮点数必须有一个指数，通过大写或者小写的 p 来指定
     
-    let decimalDouble = 12.1875      //12.1875
-    let exponentDouble = 1.21875e1   //12.1875
-    let hexadecimalDouble = 0xC.3p0  //12.1875
+    func Point3() {
+        /// 12.1875
+        let decimalDouble = 12.1875
+        /// 12.1875
+        let exponentDouble = 1.21875e1
+        /// 12.1875
+        let hexadecimalDouble = 0xC.3p0
+        print(decimalDouble,exponentDouble,hexadecimalDouble)
+    }
     
     /// 数值类字面量可以包括额外的格式来增强可读性。
+    func Point4() {
+        let paddedDouble = 000123.456
+        let oneMillion = 1_000_000
+        let justOverOneMillion = 1_000_000.000_000_1
+        print(paddedDouble,oneMillion,justOverOneMillion)
+    }
+    
     // FIXME:整数和浮点数
     /// 整数和浮点数都可以添加额外的零并且包含下划线，并不会影响字面量
-    let paddedDouble = 000123.456
-    let oneMillion = 1_000_000
-    let justOverOneMillion = 1_000_000.000_000_1
     
     // MARK: 1.8 =========================== 数值型类型转换
     
@@ -73,7 +92,8 @@ class AMBasicsPart2 {
     
     /// Int8 类型不能存储超过最大值的数，所以会报错
     /// let tooBig: Int8 = Int8.max + 1
-    func Test1() {
+    
+    func Point5() {
         let twoThousand: UInt16 = 2
         let one: UInt8 = 1
         /* 要将一种数字类型转换成另一种，你要用当前值来初始化一个期望类型的新数字，
@@ -84,23 +104,30 @@ class AMBasicsPart2 {
     
     // MARK: 1.8.2 =========================== 整数和浮点数转换
     
-    func Test2() {
+    func Point6() {
         let three = 3
         let pointOneFourOneFiveNine = 0.14159
-        let pi = Double(three) + pointOneFourOneFiveNine
+        let pi1 = Double(three) + pointOneFourOneFiveNine
         /// pi 等于 3.14159，所以被推测为 Double 类型
-        print(pi)
-        /// 结合数字类常量和变量不同于结合数字类字面量。
-        /// 字面量 3 可以直接和字面量 0.14159 相加，因为数字字面量本身没有明确的类型。它们的类型只在编译器需要求值的时候被推测
+        let pi2 = 3 + 0.14159
+        print(pi1,pi2)
     }
     
+    // FIXME:整数和浮点数转换
+    /// 字面量 3 可以直接和字面量 0.14159 相加，
+    /// 因为数字字面量本身没有明确的类型。它们的类型只在编译器需要求值的时候被推测
+    
+    
     // MARK: 1.9 =========================== 类型别名
-    typealias AudioSample = UInt16
-    var maxAmplitudeFound = AudioSample.min
-    /// maxAmplitudeFound 现在是 0
+    func Point7() {
+        typealias AudioSample = UInt16
+        let maxAmplitudeFound = AudioSample.min
+        /// maxAmplitudeFound 现在是 0
+        print(maxAmplitudeFound)
+    }
     
     // MARK: 1.10 =========================== 布尔值
-    func Test3() {
+    func Point8() {
         _ = true
         _ = false
         /// 这个例子不会通过编译，会报错
