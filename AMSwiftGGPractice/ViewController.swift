@@ -17,20 +17,20 @@ class ViewController: UIViewController {
         // 参考：https://swiftgg.gitbook.io/swift/huan-ying-shi-yong-swift
         
         //基础部分
-//        AMBasicsPart1().SetupTest()
-//        AMBasicsPart2().SetupTest()
+        AMBasicsPart1().SetupTest()
+        AMBasicsPart2().SetupTest()
         AMBasicsPart3().SetupTest()
-//        AMBasicsPart4().SetupTest()
+        AMBasicsPart4().SetupTest()
         
         //基本运算符
-//        AMBasicsOperatorPart1().SetupTest()
-//        AMBasicsOperatorPart2().SetupTest()
-//
-//        //字符串和字符
-//        AMStringPart1().SetupTest()
-//        AMStringPart2().SetupTest()
-//
-//        // 集合类型
+        AMBasicsOperatorPart1().SetupTest()
+        AMBasicsOperatorPart2().SetupTest()
+
+        //字符串和字符
+        AMStringPart1().SetupTest()
+        AMStringPart2().SetupTest()
+
+        // 集合类型
 //        AMSetPart1().SetupTest()
 //        AMSetPart2().SetupTest()
 //        AMSetPart3().SetupTest()

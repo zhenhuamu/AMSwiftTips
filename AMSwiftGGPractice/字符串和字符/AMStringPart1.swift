@@ -9,15 +9,19 @@ import Foundation
 
 class AMStringPart1 {
     func SetupTest() {
-        Test()
-        Test1()
-        Test2()
-        Test3()
-        Test4()
+        Point1()
+        Point2()
+        Point3()
+        Point4()
+        Point5()
+        Point6()
+        Point7()
+        Point8()
     }
     
     // MARK: 1.1 =========================== 字符串字面量
-    func Test() {
+    func Point1() {
+        print("=========================== 字符串字面量")
         // 字符串字面量
         let someString = "Some string literal value"
         print(someString)
@@ -54,11 +58,25 @@ class AMStringPart1 {
     }
     
     // MARK: 1.2 =========================== 字符串字面量的特殊字符
-    
+    func Point2() {
+        print("=========================== 字符串字面量的特殊字符")
+        let wiseWords = "\"Imagination is more important than knowledge\" - Einstein"
+        let dollarSign = "\u{24}"
+        let blackHeart = "\u{2665}"
+        let sparklingHeart = "\u{1F466}"
+        print(wiseWords,dollarSign,blackHeart,sparklingHeart)
+    }
     // MARK: 1.3 =========================== 扩展字符串分隔符
-    
+    func Point3() {
+        print("=========================== 扩展字符串分隔符")
+        let a = #"Line 1 \nLine 2"#
+        let b = #"Line 1 \#nLine 2"#
+        print(a)
+        print(b)
+    }
     // MARK: 1.4 =========================== 初始化空字符串
-    func Test1() {
+    func Point4() {
+        print("=========================== 初始化空字符串")
         // 初始化空字符串
         let emptyString = ""               // 空字符串字面量
         let anotherEmptyString = String()  // 初始化方法
@@ -67,22 +85,33 @@ class AMStringPart1 {
         if emptyString.isEmpty || anotherEmptyString.isEmpty {
             print("Nothing to see here")
         }
-        // 打印输出：“Nothing to see here”
     }
     
     // MARK: 1.5 =========================== 字符串可变性
-    func Test2() {
+    func Point5() {
+        print("=========================== 字符串可变性")
         var variableString = "Horse"
         variableString += " and carriage"
         // variableString 现在为 "Horse and carriage"
-
+        print(variableString)
 //        let constantString = "Highlander"
 //        constantString += " and another Highlander"
         // 这会报告一个编译错误（compile-time error） - 常量字符串不可以被修改。
+        
     }
     
-    // MARK: 1.6 =========================== 使用字符
-    func Test3() {
+    // MARK: 1.6 =========================== 字符串是值类型
+    func Point6() {
+        print("=========================== 字符串是值类型")
+        let a = "Horse"
+        var b = a
+        b = "room"
+        print(a,b)
+    }
+    
+    // MARK: 1.7 =========================== 使用字符
+    func Point7() {
+        print("=========================== 使用字符")
         // 你可通过 for-in 循环来遍历字符串，获取字符串中每一个字符的值：
         for character in "Dog!🐶" {
             print(character)
@@ -104,8 +133,9 @@ class AMStringPart1 {
         // 打印输出：“Cat!🐱”
     }
     
-    // MARK: 1.7 =========================== 连接字符串和字符
-    func Test4() {
+    // MARK: 1.8 =========================== 连接字符串和字符
+    func Point8() {
+        print("=========================== 连接字符串和字符")
         let string1 = "hello"
         let string2 = " there"
         var welcome = string1 + string2
@@ -121,7 +151,4 @@ class AMStringPart1 {
         // welcome 现在等于 "hello there!"
         // 你不能将一个字符串或者字符添加到一个已经存在的字符变量上，因为字符变量只能包含一个字符。
     }
-    
-    
-    
 }

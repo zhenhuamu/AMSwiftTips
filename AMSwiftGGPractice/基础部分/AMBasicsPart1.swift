@@ -24,6 +24,7 @@ class AMBasicsPart1 {
     
     // MARK: 1.1.1 =========================== 声明常量和变量
     func Point1() {
+        print("=========================== 声明常量和变量")
         /// 常量
         let maximumNumberOfLoginAttempts = 10
         /// 变量
@@ -36,6 +37,7 @@ class AMBasicsPart1 {
     // MARK: 1.1.2 =========================== 类型注解
 
     func Point2() {
+        print("=========================== 类型注解")
         /// 添加类型注解，需要在常量或者变量名后面加上一个冒号和空格，然后加上类型名称
         let welcomeMessage: String = ""
         /// 你可以在一行中定义多个同样类型的变量，用逗号分割，并在最后一个变量名之后添加类型注解：
@@ -53,6 +55,7 @@ class AMBasicsPart1 {
     /// 常量与变量名不能包含数学符号，箭头，保留的（或者非法的）Unicode 码位，连线与制表符。
     /// 也不能以数字开头，但是可以在常量与变量名的其他地方包含数字。
     func Point3() {
+        print("=========================== 常量和变量的命名")
         let π = 3.14159
         let 你好 = "你好世界"
         let 🐶🐮 = "dogcow"
@@ -69,6 +72,7 @@ class AMBasicsPart1 {
     /// separator 和 terminator参数具有默认值，因此你调用这个函数的时候可以忽略它们。
     /// 默认情况下，该函数通过添加换行符来结束当前行。如果不想换行，可以传递一个空字符串给 terminator 参数 */
     func Point4() {
+        print("=========================== 输出常量和变量")
         print("123")
         print("123", terminator: "")
         print("你好")
@@ -99,6 +103,7 @@ class AMBasicsPart1 {
     func Point5() {
         /* 与其他大部分编程语言不同，Swift 并不强制要求你在每条语句的结尾处使用分号（;），
          当然，你也可以按照你自己的习惯添加分号。有一种情况下必须要用分号，即你打算在同一行内写多条独立的语句：*/
+        print("=========================== 分号")
         let cat = "🐱"; print(cat)
     }
 
@@ -113,6 +118,7 @@ class AMBasicsPart1 {
     /// maxValue 为 127，是 Int8 类型
     let maxValue = Int8.max
     func Point6() {
+        print("=========================== 整数范围")
         print(minValue,maxValue)
     }
     

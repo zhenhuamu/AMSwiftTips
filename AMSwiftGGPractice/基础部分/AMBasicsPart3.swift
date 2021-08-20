@@ -20,6 +20,7 @@ class AMBasicsPart3 {
     
     // MARK: 1.11 =========================== 元组
     func Point1() {
+        print("=========================== 元组")
         /// 元组（tuples）把多个值组合成一个复合值。元组内的值可以是任意类型，并不要求是相同类型。
         /// http404Error 的类型是 (Int, String)，值是 (404, "Not Found")
         let http404Error = (404, "Not Found")
@@ -54,6 +55,7 @@ class AMBasicsPart3 {
     // MARK: 1.12 =========================== 可选类型
     
     func Point2() {
+        print("=========================== 可选类型")
         let possibleNumber = "123"
         let convertedNumber = Int(possibleNumber)
         /// convertedNumber 被推测为类型 "Int?"， 或者类型 "optional Int"
@@ -71,6 +73,7 @@ class AMBasicsPart3 {
     
     // MARK: 1.12.1 =========================== nil
     func Point3() {
+        print("=========================== nil")
         /// 你可以给可选变量赋值为 nil 来表示它没有值：
         var serverResponseCode: Int? = 404
         /// serverResponseCode 包含一个可选的 Int 值 404
@@ -92,6 +95,7 @@ class AMBasicsPart3 {
     
     // MARK: 1.12.2 =========================== if 语句以及强制解析
     func Point4() {
+        print("=========================== if 语句以及强制解析")
         let possibleNumber = "123"
         let convertedNumber = Int(possibleNumber)
         /// 如果可选类型有值，它将不等于 nil：
@@ -114,6 +118,7 @@ class AMBasicsPart3 {
     /// if 和 while 语句，请参考 控制流。
     
     func Point5() {
+        print("=========================== 可选绑定")
         let possibleNumber = "100"
         /// 输出“'123' has an integer value of 123”
         if let actualNumber = Int(possibleNumber) {
@@ -143,6 +148,7 @@ class AMBasicsPart3 {
     
     // MARK: 1.12.4 =========================== 隐式解析可选类型
     func Point6() {
+        print("=========================== 隐式解析可选类型")
         /// 普通可选类型
         let possibleString: String? = "An optional string."
         let forcedString: String = possibleString! // 需要感叹号来获取值

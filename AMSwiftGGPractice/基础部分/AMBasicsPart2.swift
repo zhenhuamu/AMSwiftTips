@@ -20,6 +20,7 @@ class AMBasicsPart2 {
     
     // MARK: 1.6 =========================== 类型安全和类型推断
     func Point1() {
+        print("=========================== 类型安全和类型推断")
         /// meaningOfLife 会被推测为 Int 类型
         let meaningOfLife = 42
         /// pi 会被推测为 Double 类型
@@ -41,6 +42,7 @@ class AMBasicsPart2 {
     /// 一个十六进制数，前缀是 0x
     
     func Point2() {
+        print("=========================== 数值型字面量")
         let decimalInteger = 17
         /// 二进制的17
         let binaryInteger = 0b10001
@@ -94,6 +96,7 @@ class AMBasicsPart2 {
     /// let tooBig: Int8 = Int8.max + 1
     
     func Point5() {
+        print("=========================== 整数转换")
         let twoThousand: UInt16 = 2
         let one: UInt8 = 1
         /* 要将一种数字类型转换成另一种，你要用当前值来初始化一个期望类型的新数字，
@@ -105,6 +108,7 @@ class AMBasicsPart2 {
     // MARK: 1.8.2 =========================== 整数和浮点数转换
     
     func Point6() {
+        print("=========================== 整数和浮点数转换")
         let three = 3
         let pointOneFourOneFiveNine = 0.14159
         let pi1 = Double(three) + pointOneFourOneFiveNine
@@ -120,6 +124,7 @@ class AMBasicsPart2 {
     
     // MARK: 1.9 =========================== 类型别名
     func Point7() {
+        print("=========================== 类型别名")
         typealias AudioSample = UInt16
         let maxAmplitudeFound = AudioSample.min
         /// maxAmplitudeFound 现在是 0
