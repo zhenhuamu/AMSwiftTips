@@ -16,6 +16,7 @@ class AMBasicsPart3 {
         Point4()
         Point5()
         Point6()
+        
     }
     
     // MARK: 1.11 =========================== 元组
