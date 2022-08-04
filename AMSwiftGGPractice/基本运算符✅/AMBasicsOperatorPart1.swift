@@ -15,6 +15,7 @@ class AMBasicsOperatorPart1 {
         Point4()
         Point5()
         Point6()
+        Point7()
     }
     
     // MARK: 1.1 =========================== 赋值运算符
@@ -100,6 +101,7 @@ class AMBasicsOperatorPart1 {
         /* Swift 标准库只能比较七个以内元素的元组比较函数。
         如果你的元组元素超过七个时，你需要自己实现比较运算符。*/
         // FIXME:⚠️⚠️⚠️比较运算符
+        // Bool 不能比较
         // Swift 也提供恒等（===）和不恒等（!==）这两个比较符来判断两个对象是否引用同一个对象实例
     }
     
@@ -119,5 +121,20 @@ class AMBasicsOperatorPart1 {
          不过需要注意的是，滥用三元运算符会降低代码可读性。
          所以我们应避免在一个复合语句中使用多个三元运算符。*/
     }
+    
+    // MARK: 1.7 =========================== 溢出运算符
+    /* 与 C 语言和 Objective-C 不同的是，Swift 默认情况下不允许在数值运算中出现溢出情况。但是你可以使用 Swift 的溢出运算符来实现溢出运算（如 a &+ b）*/
+    
+    func Point7() {
+        print("=========================== 溢出运算符")
+        let m = Int.max
+        let n = 1
+//        let _ = m + n //溢出报错
+        let total = m &+ n
+        print("\(total)")
+        
+    }
+    
+    
     
 }

@@ -112,7 +112,7 @@ class AMBasicsPart2 {
         let three = 3
         let pointOneFourOneFiveNine = 0.14159
         let pi1 = Double(three) + pointOneFourOneFiveNine
-        /// pi 等于 3.14159，所以被推测为 Double 类型
+        /// pi1 等于 3.14159，所以被推测为 Double 类型
         let pi2 = 3 + 0.14159
         print(pi1,pi2)
     }

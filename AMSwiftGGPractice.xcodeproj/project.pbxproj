@@ -326,8 +326,8 @@
 				8EDA3D89253D38B50045D1FD /* 控制流 */,
 				8EDA3CB92538348D0045D1FD /* 集合类型 */,
 				8EDA3CB0253825EC0045D1FD /* 字符串和字符 */,
-				8EDA39C32535503D0045D1FD /* 基本运算符 */,
-				8EDA39B425344B870045D1FD /* 基础部分 */,
+				8EDA39C32535503D0045D1FD /* 基本运算符✅ */,
+				8EDA39B425344B870045D1FD /* 基础部分✅ */,
 				8EDA399E25344AEA0045D1FD /* AppDelegate.swift */,
 				8EDA39A025344AEA0045D1FD /* SceneDelegate.swift */,
 				8EDA39A225344AEA0045D1FD /* ViewController.swift */,
@@ -339,7 +339,7 @@
 			path = AMSwiftGGPractice;
 			sourceTree = "<group>";
 		};
-		8EDA39B425344B870045D1FD /* 基础部分 */ = {
+		8EDA39B425344B870045D1FD /* 基础部分✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E5BB208255FED9900C5BBD8 /* help1 */,
@@ -348,17 +348,17 @@
 				8E59160B2534934700074303 /* AMBasicsPart3.swift */,
 				8EDA39C0253548890045D1FD /* AMBasicsPart4.swift */,
 			);
-			path = "基础部分";
+			path = "基础部分✅";
 			sourceTree = "<group>";
 		};
-		8EDA39C32535503D0045D1FD /* 基本运算符 */ = {
+		8EDA39C32535503D0045D1FD /* 基本运算符✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C087267DC3D600AE3BA1 /* help2 */,
 				8EDA39C4253550C10045D1FD /* AMBasicsOperatorPart1.swift */,
 				8EDA39C8253570DC0045D1FD /* AMBasicsOperatorPart2.swift */,
 			);
-			path = "基本运算符";
+			path = "基本运算符✅";
 			sourceTree = "<group>";
 		};
 		8EDA3A8225359F7B0045D1FD /* 类和结构体 */ = {

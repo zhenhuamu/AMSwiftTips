@@ -53,13 +53,23 @@ class AMBasicsPart3 {
     }
     
     // MARK: 1.12 =========================== 可选类型
-    
     func Point2() {
         print("=========================== 可选类型")
+        /// 原始的可选项定义
+        let x:Optional = 10
+        print("\(x)")
+        /// 输出结果: Optional(10),提示这是一个可选值
+        
         let possibleNumber = "123"
         let convertedNumber = Int(possibleNumber)
         /// convertedNumber 被推测为类型 "Int?"， 或者类型 "optional Int"
         print(convertedNumber!)
+        
+        /// 定义常量，let的可选项没有默认值
+        let _:Int?
+        /// 定义变量，var的可选项默认值为nil
+        var temp:Int?
+        print("\(temp)")
     }
     
     // FIXME:⚠️⚠️⚠️可选类型
@@ -70,6 +80,12 @@ class AMBasicsPart3 {
     /// 对于这些类型，Objective-C 方法一般会返回一个特殊值（比如 NSNotFound）来暗示值缺失。
     /// 这种方法假设方法的调用者知道并记得对特殊值进行判断。
     /// 然而，Swift 的可选类型可以让你暗示任意类型的值缺失，并不需要一个特殊值。
+    
+    /// 最常见的错误
+    /// Fatal error: Unexpectedly found nil while unwrapping an Optional value
+    /// 在解包的时候发现了 nil 值
+    /// 定义可选项使用 “?”，并且使用强制解包 "!"
+    
     
     // MARK: 1.12.1 =========================== nil
     func Point3() {

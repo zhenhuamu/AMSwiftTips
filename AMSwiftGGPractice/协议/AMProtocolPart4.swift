@@ -54,11 +54,11 @@ class AMProtocolPart4 {
     
     ///-------------------------协议扩展-----------------------------///
     func Test1() {
-        class LinearCongruentialGenerator:RandomNumberGenerator {
-            
-        }
-        let generator = LinearCongruentialGenerator()
-        print("And here's a random Boolean: \(generator.randomBool())")
+//        class LinearCongruentialGenerator:RandomNumberGenerator {
+//            
+//        }
+//        let generator = LinearCongruentialGenerator()
+//        print("And here's a random Boolean: \(generator.randomBool())")
         // 打印 “And here's a random Boolean: true”
         /* 协议扩展可以为遵循协议的类型增加实现，但不能声明该协议继承自另一个协议。
          协议的继承只能在协议声明处进行指定。*/

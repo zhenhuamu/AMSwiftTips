@@ -29,8 +29,12 @@ class AMBasicsPart1 {
         let maximumNumberOfLoginAttempts = 10
         /// 变量
         var currentLoginAttempt = 0
+        currentLoginAttempt = 10
         /// 一行中声明多个常量
         var x = 0.0, y = 0.0, z = 0.0
+        x = 10.0
+        y = 20.0
+        z = 30.0
         print(maximumNumberOfLoginAttempts,currentLoginAttempt,x,y,z)
     }
     
@@ -65,6 +69,7 @@ class AMBasicsPart1 {
     // FIXME: ⚠️⚠️⚠️使用关键字
     ///如果你需要使用与 Swift 保留关键字相同的名称作为常量或者变量名，你可以使用反引号（`）将关键字包围的方式将其作为名字使用。
     ///无论如何，你应当避免使用关键字作为常量或变量名，除非你别无选择。
+    let `let` = ""
     
     // MARK: 1.1.4 =========================== 输出常量和变量
     
@@ -113,13 +118,15 @@ class AMBasicsPart1 {
     
     // MARK: 1.4.1 =========================== 整数范围
     
-    /// minValue 为 0，是 UInt8 类型
-    let minValue = UInt8.min
-    /// maxValue 为 127，是 Int8 类型
-    let maxValue = Int8.max
+    /// UInt8 类型minValue 为 0，maxValue为255
+    let minValue1 = UInt8.min
+    let maxValue1 = UInt8.max
+    /// Int8 类型minValue为-128，maxValue为127
+    let minValue2 = Int8.min
+    let maxValue2 = Int8.max
     func Point6() {
         print("=========================== 整数范围")
-        print(minValue,maxValue)
+        print(minValue1,maxValue1,minValue2,maxValue2)
     }
     
     // MARK: 1.4.2 =========================== Int
