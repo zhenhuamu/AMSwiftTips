@@ -324,7 +324,7 @@
 				8EDA3A9D2536D2220045D1FD /* 闭包 */,
 				8EDA3A962536AA520045D1FD /* 函数 */,
 				8EDA3D89253D38B50045D1FD /* 控制流 */,
-				8EDA3CB92538348D0045D1FD /* 集合类型 */,
+				8EDA3CB92538348D0045D1FD /* 集合类型✅ */,
 				8EDA3CB0253825EC0045D1FD /* 字符串和字符✅ */,
 				8EDA39C32535503D0045D1FD /* 基本运算符✅ */,
 				8EDA39B425344B870045D1FD /* 基础部分✅ */,
@@ -410,7 +410,7 @@
 			path = "字符串和字符✅";
 			sourceTree = "<group>";
 		};
-		8EDA3CB92538348D0045D1FD /* 集合类型 */ = {
+		8EDA3CB92538348D0045D1FD /* 集合类型✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C08B267DE35200AE3BA1 /* help4 */,
@@ -418,7 +418,7 @@
 				8EDA3D1625384AC30045D1FD /* AMSetPart2.swift */,
 				8EDA3D19253850120045D1FD /* AMSetPart3.swift */,
 			);
-			path = "集合类型";
+			path = "集合类型✅";
 			sourceTree = "<group>";
 		};
 		8EDA3D89253D38B50045D1FD /* 控制流 */ = {
