@@ -31,13 +31,13 @@ class ViewController: UIViewController {
         AMStringPart2().SetupTest()
 
         // 集合类型
-//        AMSetPart1().SetupTest()
-//        AMSetPart2().SetupTest()
-//        AMSetPart3().SetupTest()
-//
-//        // 控制流
-//        AMIfPart1().SetupTest()
-//        AMIfPart2().SetupTest()
+        AMSetPart1().SetupTest()
+        AMSetPart2().SetupTest()
+        AMSetPart3().SetupTest()
+
+        // 控制流
+        AMIfPart1().SetupTest()
+        AMIfPart2().SetupTest()
 //
 //        // 函数
 //        AMFunctionPart1().SetupTest()

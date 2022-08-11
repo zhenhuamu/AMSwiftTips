@@ -323,7 +323,7 @@
 				8E513C6025427529003A2EA4 /* 枚举 */,
 				8EDA3A9D2536D2220045D1FD /* 闭包 */,
 				8EDA3A962536AA520045D1FD /* 函数 */,
-				8EDA3D89253D38B50045D1FD /* 控制流 */,
+				8EDA3D89253D38B50045D1FD /* 控制流✅ */,
 				8EDA3CB92538348D0045D1FD /* 集合类型✅ */,
 				8EDA3CB0253825EC0045D1FD /* 字符串和字符✅ */,
 				8EDA39C32535503D0045D1FD /* 基本运算符✅ */,
@@ -421,14 +421,14 @@
 			path = "集合类型✅";
 			sourceTree = "<group>";
 		};
-		8EDA3D89253D38B50045D1FD /* 控制流 */ = {
+		8EDA3D89253D38B50045D1FD /* 控制流✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C08D267DE90400AE3BA1 /* help5 */,
 				8EDA3D8A253D38E10045D1FD /* AMIfPart1.swift */,
 				8EDA3D8E253D43530045D1FD /* AMIfPart2.swift */,
 			);
-			path = "控制流";
+			path = "控制流✅";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
