@@ -65,6 +65,9 @@ class AMSubscriptPart1 {
                 }
             }
         }
+        let temp = Matrix(rows: 10, columns: 20)
+        print(temp[3,4])
+        
     }
     
     // MARK: 1.4 =========================== 类型下标

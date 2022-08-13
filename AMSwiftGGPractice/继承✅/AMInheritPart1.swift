@@ -80,11 +80,19 @@ class AMInheritPart1 {
         }
         // 重写属性
         /*注意
-        如果你在重写属性中提供了 setter，那么你也一定要提供 getter。
-        如果你不想在重写版本中的 getter 里修改继承来的属性值，你可以直接通过 super.someProperty
+        如果你在重写属性中提供了 setter，那么你也一定要提供 setter。
+        如果你不想在重写版本中的 setter 里修改继承来的属性值，你可以直接通过 super.someProperty
         来返回继承来的值，其中 someProperty 是你要重写的属性的名字。*/
         class Car: Vehicle {
             var gear = 1
+            var temp:String {
+                get {
+                    "5"
+                }
+                set {
+                  gear = 2
+                }
+            }
             override var description: String {
                 return super.description + " in gear \(gear)"
             }
@@ -94,6 +102,13 @@ class AMInheritPart1 {
             override var currentSpeed: Double {
                 didSet {
                     gear = Int(currentSpeed / 10.0) + 1
+                }
+            }
+            override var temp: String {
+                get {
+                    super.temp
+                }
+                set {
                 }
             }
         }

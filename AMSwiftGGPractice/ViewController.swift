@@ -56,20 +56,20 @@ class ViewController: UIViewController {
         // 属性
         AMPropertyPart1().SetupTest()
         AMPropertyPart2().SetupTest()
-//
-//        // 方法
-//        AMMethodsPart1().SetupTest()
-//
-//        // 下标
-//        AMSubscriptPart1().SetupTest()
-//
-//        // 继承
-//        AMInheritPart1().SetupTest()
-//
-//        // 构造过程
-//        AMInitPart1().SetupTest()
-//        AMInitPart2().SetupTest()
-//        AMInitPart3().SetupTest()
+
+        // 方法
+        AMMethodsPart1().SetupTest()
+
+        // 下标
+        AMSubscriptPart1().SetupTest()
+
+        // 继承
+        AMInheritPart1().SetupTest()
+
+        // 构造过程
+        AMInitPart1().SetupTest()
+        AMInitPart2().SetupTest()
+        AMInitPart3().SetupTest()
 //
 //        // 析构过程
 //        AMDeinitPart3().SetupTest()

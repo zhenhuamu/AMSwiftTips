@@ -39,6 +39,14 @@ class AMInitPart1 {
         struct Fahrenheit1 {
             var temperature = 32.0
         }
+        
+        class Fahrenheit2 {
+            var temperature: Double
+            init() {
+                temperature = 30.0
+            }
+        }
+        
     }
     
     // MARK: 1.2 =========================== 自定义构造过程

@@ -211,20 +211,22 @@ class AMInitPart3 {
     func Test6() {
         /* 注意
          如果你使用闭包来初始化属性，请记住在闭包执行时，实例的其它部分都还没有初始化。
-         这意味着你不能在闭包里访问其它属性，即使这些属性有默认值。同样，你也不能使用隐式的 self 属性，或者调用任何实例方法。*/
+         这意味着你不能在闭包里访问其它属性，即使这些属性有默认值。(lazy属性除外) 同样，你也不能使用隐式的 self 属性，或者调用任何实例方法。*/
         
         /* 注意闭包结尾的花括号后面接了一对空的小括号。这用来告诉 Swift 立即执行此闭包。
         如果你忽略了这对括号，相当于将闭包本身作为值赋值给了属性，而不是将闭包的返回值赋值给属性。*/
         
         class SomeClass {
-            let someProperty: String = {
+            let temp = "2"
+            lazy var someProperty: String = {
                 var someValue = ""
                 // 在这个闭包中给 someProperty 创建一个默认值
                 // someValue 必须和 String 类型相同
+                someValue += temp
                 return someValue
             }()
         }
-        
+        print(SomeClass().someProperty)
         
         struct Chessboard {
             let boardColors: [Bool] = {

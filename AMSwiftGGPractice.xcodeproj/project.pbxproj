@@ -166,34 +166,34 @@
 			path = "枚举✅";
 			sourceTree = "<group>";
 		};
-		8E513C6525428483003A2EA4 /* 方法 */ = {
+		8E513C6525428483003A2EA4 /* 方法✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C099267EF6CF00AE3BA1 /* help11 */,
 				8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */,
 			);
-			path = "方法";
+			path = "方法✅";
 			sourceTree = "<group>";
 		};
-		8E513C6B2542A500003A2EA4 /* 下标 */ = {
+		8E513C6B2542A500003A2EA4 /* 下标✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C09B267F0AD300AE3BA1 /* help12 */,
 				8E513C6C2542A5BE003A2EA4 /* AMSubscriptPart1.swift */,
 			);
-			path = "下标";
+			path = "下标✅";
 			sourceTree = "<group>";
 		};
-		8E513C702542B3D4003A2EA4 /* 继承 */ = {
+		8E513C702542B3D4003A2EA4 /* 继承✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C09D267F0DCC00AE3BA1 /* help13 */,
 				8E513C712542B441003A2EA4 /* AMInheritPart1.swift */,
 			);
-			path = "继承";
+			path = "继承✅";
 			sourceTree = "<group>";
 		};
-		8E513C752542BA8A003A2EA4 /* 构造过程 */ = {
+		8E513C752542BA8A003A2EA4 /* 构造过程✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C09F267F199A00AE3BA1 /* help14 */,
@@ -201,7 +201,7 @@
 				8E513C7A2542C3A4003A2EA4 /* AMInitPart2.swift */,
 				8E513C7D2542D904003A2EA4 /* AMInitPart3.swift */,
 			);
-			path = "构造过程";
+			path = "构造过程✅";
 			sourceTree = "<group>";
 		};
 		8E513C802542E3C7003A2EA4 /* 析构过程 */ = {
@@ -314,10 +314,10 @@
 				8E5916112543B8E300074303 /* 错误处理 */,
 				8E513C852542E5D8003A2EA4 /* 可选链 */,
 				8E513C802542E3C7003A2EA4 /* 析构过程 */,
-				8E513C752542BA8A003A2EA4 /* 构造过程 */,
-				8E513C702542B3D4003A2EA4 /* 继承 */,
-				8E513C6B2542A500003A2EA4 /* 下标 */,
-				8E513C6525428483003A2EA4 /* 方法 */,
+				8E513C752542BA8A003A2EA4 /* 构造过程✅ */,
+				8E513C702542B3D4003A2EA4 /* 继承✅ */,
+				8E513C6B2542A500003A2EA4 /* 下标✅ */,
+				8E513C6525428483003A2EA4 /* 方法✅ */,
 				8EDA3A8E253692A80045D1FD /* 属性✅ */,
 				8EDA3A8225359F7B0045D1FD /* 类和结构体✅ */,
 				8E513C6025427529003A2EA4 /* 枚举✅ */,

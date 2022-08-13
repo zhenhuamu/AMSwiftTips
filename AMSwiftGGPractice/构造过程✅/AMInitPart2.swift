@@ -172,6 +172,9 @@ class AMInitPart2 {
                 self.quantity = quantity
                 super.init(name: name)
             }
+            convenience init(quantity: Int) {
+                self.init(name: "", quantity: 1)
+            }
             override convenience init(name: String) {
                 self.init(name: name, quantity: 1)
             }
