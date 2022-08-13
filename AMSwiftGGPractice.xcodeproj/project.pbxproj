@@ -204,22 +204,22 @@
 			path = "构造过程✅";
 			sourceTree = "<group>";
 		};
-		8E513C802542E3C7003A2EA4 /* 析构过程 */ = {
+		8E513C802542E3C7003A2EA4 /* 析构过程✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C0A1267F51F600AE3BA1 /* help15 */,
 				8E513C812542E3F1003A2EA4 /* AMDeinitPart3.swift */,
 			);
-			path = "析构过程";
+			path = "析构过程✅";
 			sourceTree = "<group>";
 		};
-		8E513C852542E5D8003A2EA4 /* 可选链 */ = {
+		8E513C852542E5D8003A2EA4 /* 可选链✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C0A3267F53F200AE3BA1 /* help16 */,
 				8E513C862542E751003A2EA4 /* AMOptionalPart1.swift */,
 			);
-			path = "可选链";
+			path = "可选链✅";
 			sourceTree = "<group>";
 		};
 		8E5916112543B8E300074303 /* 错误处理 */ = {
@@ -231,13 +231,13 @@
 			path = "错误处理";
 			sourceTree = "<group>";
 		};
-		8E5916162543BF7900074303 /* 类型转换 */ = {
+		8E5916162543BF7900074303 /* 类型转换✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C0A7267F7B4E00AE3BA1 /* help18 */,
 				8E5916172543BFA800074303 /* AMAsPart1.swift */,
 			);
-			path = "类型转换";
+			path = "类型转换✅";
 			sourceTree = "<group>";
 		};
 		8E91C4A92543CC5C00185C41 /* 嵌套类型 */ = {
@@ -310,10 +310,10 @@
 				8E91C4AF2543D27300185C41 /* 协议 */,
 				8E91C4AA2543CC6500185C41 /* 扩展 */,
 				8E91C4A92543CC5C00185C41 /* 嵌套类型 */,
-				8E5916162543BF7900074303 /* 类型转换 */,
+				8E5916162543BF7900074303 /* 类型转换✅ */,
 				8E5916112543B8E300074303 /* 错误处理 */,
-				8E513C852542E5D8003A2EA4 /* 可选链 */,
-				8E513C802542E3C7003A2EA4 /* 析构过程 */,
+				8E513C852542E5D8003A2EA4 /* 可选链✅ */,
+				8E513C802542E3C7003A2EA4 /* 析构过程✅ */,
 				8E513C752542BA8A003A2EA4 /* 构造过程✅ */,
 				8E513C702542B3D4003A2EA4 /* 继承✅ */,
 				8E513C6B2542A500003A2EA4 /* 下标✅ */,
