@@ -157,13 +157,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E513C6025427529003A2EA4 /* 枚举 */ = {
+		8E513C6025427529003A2EA4 /* 枚举✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C093267E2A0A00AE3BA1 /* help8 */,
 				8E513C6125427766003A2EA4 /* AMEnumPart1.swift */,
 			);
-			path = "枚举";
+			path = "枚举✅";
 			sourceTree = "<group>";
 		};
 		8E513C6525428483003A2EA4 /* 方法 */ = {
@@ -318,11 +318,11 @@
 				8E513C702542B3D4003A2EA4 /* 继承 */,
 				8E513C6B2542A500003A2EA4 /* 下标 */,
 				8E513C6525428483003A2EA4 /* 方法 */,
-				8EDA3A8E253692A80045D1FD /* 属性 */,
-				8EDA3A8225359F7B0045D1FD /* 类和结构体 */,
-				8E513C6025427529003A2EA4 /* 枚举 */,
-				8EDA3A9D2536D2220045D1FD /* 闭包 */,
-				8EDA3A962536AA520045D1FD /* 函数 */,
+				8EDA3A8E253692A80045D1FD /* 属性✅ */,
+				8EDA3A8225359F7B0045D1FD /* 类和结构体✅ */,
+				8E513C6025427529003A2EA4 /* 枚举✅ */,
+				8EDA3A9D2536D2220045D1FD /* 闭包✅ */,
+				8EDA3A962536AA520045D1FD /* 函数✅ */,
 				8EDA3D89253D38B50045D1FD /* 控制流✅ */,
 				8EDA3CB92538348D0045D1FD /* 集合类型✅ */,
 				8EDA3CB0253825EC0045D1FD /* 字符串和字符✅ */,
@@ -361,43 +361,43 @@
 			path = "基本运算符✅";
 			sourceTree = "<group>";
 		};
-		8EDA3A8225359F7B0045D1FD /* 类和结构体 */ = {
+		8EDA3A8225359F7B0045D1FD /* 类和结构体✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C095267EED2000AE3BA1 /* help9 */,
 				8EDA3A8325359FC10045D1FD /* AMClassAndStructPart1.swift */,
 			);
-			path = "类和结构体";
+			path = "类和结构体✅";
 			sourceTree = "<group>";
 		};
-		8EDA3A8E253692A80045D1FD /* 属性 */ = {
+		8EDA3A8E253692A80045D1FD /* 属性✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C097267EF15C00AE3BA1 /* help10 */,
 				8EDA3A8F253693020045D1FD /* AMPropertyPart1.swift */,
 				8EDA3A9325369D6C0045D1FD /* AMPropertyPart2.swift */,
 			);
-			path = "属性";
+			path = "属性✅";
 			sourceTree = "<group>";
 		};
-		8EDA3A962536AA520045D1FD /* 函数 */ = {
+		8EDA3A962536AA520045D1FD /* 函数✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C08F267E0C4400AE3BA1 /* help6 */,
 				8EDA3A972536AA760045D1FD /* AMFunctionPart1.swift */,
 				8EDA3A9A2536C31E0045D1FD /* AMFunctionPart2.swift */,
 			);
-			path = "函数";
+			path = "函数✅";
 			sourceTree = "<group>";
 		};
-		8EDA3A9D2536D2220045D1FD /* 闭包 */ = {
+		8EDA3A9D2536D2220045D1FD /* 闭包✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C091267E114D00AE3BA1 /* Help7 */,
 				8EDA3A9E2536D24E0045D1FD /* AMBlocksPart1.swift */,
 				8EDA3AA22536E29F0045D1FD /* AMBlocksPart2.swift */,
 			);
-			path = "闭包";
+			path = "闭包✅";
 			sourceTree = "<group>";
 		};
 		8EDA3CB0253825EC0045D1FD /* 字符串和字符✅ */ = {

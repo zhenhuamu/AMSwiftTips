@@ -13,6 +13,7 @@ class AMBlocksPart2 {
         Test1()
         Test2()
         Test3()
+        Test4()
     }
     let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
     // MARK: 1.1 =========================== 尾随闭包
@@ -50,7 +51,6 @@ class AMBlocksPart2 {
             5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
         ]
         let numbers = [16, 58, 510]
-        
         let strings = numbers.map {
             (number) -> String in
             var number = number
@@ -111,11 +111,18 @@ class AMBlocksPart2 {
     func someFunctionWithEscapingClosure(completionHandler: @escaping () -> Void) {
         completionHandlers.append(completionHandler)
     }
-    
+        
     func someFunctionWithNonescapingClosure(closure: () -> Void) {
         closure()
     }
-    
+    /// 错误实例，应该使用@escaping，但是没有使用
+    /// 报错信息：Escaping closure captures non-escaping parameter 'completionHandler'
+//    func errorSomeFunctionWithEscapingClosure(completionHandler: () -> Void) {
+//        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
+//            completionHandler()
+//        }
+//    }
+        
     func Test2() {
         someFunctionWithEscapingClosure { self.x = 100 }
         someFunctionWithNonescapingClosure { x = 200 }
@@ -125,7 +132,7 @@ class AMBlocksPart2 {
         print(x)
         // 打印出“100”
     }
-    
+        
     // MARK: 1.4 =========================== 自动闭包
     /*
      自动闭包是一种自动创建的闭包，用于包装传递给函数作为参数的表达式。
@@ -183,7 +190,16 @@ class AMBlocksPart2 {
         // 打印“Now serving Daniella!”
         
     }
-     
+    
+    // MARK: 1.5 =========================== 实例
+    func Test4() {
+        AMLog("1234")
+    }
+    
+    func AMLog(_ closure: @autoclosure () -> Any?, functionName: StaticString = #function, fileName: StaticString = #file, lineNumber: Int = #line, userInfo: [String: Any] = [:]) {
+        print("\(String(describing: closure()))\n===\(functionName)\n===\(fileName)\n===\(lineNumber)\n===\(userInfo)")
+    }
+    
 }
 
 
