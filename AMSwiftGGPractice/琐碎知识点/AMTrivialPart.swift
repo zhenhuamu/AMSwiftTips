@@ -72,6 +72,12 @@ class AMTrivialPart {
         print(classString1)
         /// 输出 AMSwiftGGPractice.AMAsPart1
         
+        let temp5 = 90
+        print("\(temp5)======\(temp5.self)")
+        /// 输出90======90
+        print(type(of: temp5))
+        /// Int
+        
     }
     
     
