@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FB3292828A8C60700B7E19B /* AMTrivialPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3292728A8C60700B7E19B /* AMTrivialPart.swift */; };
 		8E513C6225427766003A2EA4 /* AMEnumPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C6125427766003A2EA4 /* AMEnumPart1.swift */; };
 		8E513C67254284DE003A2EA4 /* AMMethodsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */; };
 		8E513C6D2542A5BE003A2EA4 /* AMSubscriptPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C6C2542A5BE003A2EA4 /* AMSubscriptPart1.swift */; };
@@ -76,6 +77,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FB3292728A8C60700B7E19B /* AMTrivialPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMTrivialPart.swift; sourceTree = "<group>"; };
 		8E513C6125427766003A2EA4 /* AMEnumPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEnumPart1.swift; sourceTree = "<group>"; };
 		8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMMethodsPart1.swift; sourceTree = "<group>"; };
 		8E513C6C2542A5BE003A2EA4 /* AMSubscriptPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSubscriptPart1.swift; sourceTree = "<group>"; };
@@ -157,6 +159,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FB3292628A8C5C800B7E19B /* 琐碎知识点 */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3292728A8C60700B7E19B /* AMTrivialPart.swift */,
+			);
+			path = "琐碎知识点";
+			sourceTree = "<group>";
+		};
 		8E513C6025427529003A2EA4 /* 枚举✅ */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +315,7 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				5FB3292628A8C5C800B7E19B /* 琐碎知识点 */,
 				8E91C4C225464E6A00185C41 /* 访问控制✅ */,
 				8E91C4BD2545BD8500185C41 /* 泛型✅ */,
 				8E91C4AF2543D27300185C41 /* 协议✅ */,
@@ -561,6 +572,7 @@
 				8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */,
 				8E91C4AC2543CCA100185C41 /* AMExtensionPart1.swift in Sources */,
 				8EDA3A9B2536C31E0045D1FD /* AMFunctionPart2.swift in Sources */,
+				5FB3292828A8C60700B7E19B /* AMTrivialPart.swift in Sources */,
 				8E513C722542B441003A2EA4 /* AMInheritPart1.swift in Sources */,
 				8E513C822542E3F1003A2EA4 /* AMDeinitPart3.swift in Sources */,
 				8E513C6225427766003A2EA4 /* AMEnumPart1.swift in Sources */,

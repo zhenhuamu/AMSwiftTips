@@ -91,6 +91,9 @@ class ViewController: UIViewController {
         AMProtocolPart2().SetupTest()
         AMProtocolPart3().SetupTest()
         AMProtocolPart4().SetupTest()
+        
+        // 琐碎知识点
+        AMTrivialPart().SetupTest()
     }
 }
 
