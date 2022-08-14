@@ -247,16 +247,16 @@
 			path = "嵌套类型";
 			sourceTree = "<group>";
 		};
-		8E91C4AA2543CC6500185C41 /* 扩展 */ = {
+		8E91C4AA2543CC6500185C41 /* 扩展✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C0A9267F7F3A00AE3BA1 /* help19 */,
 				8E91C4AB2543CCA100185C41 /* AMExtensionPart1.swift */,
 			);
-			path = "扩展";
+			path = "扩展✅";
 			sourceTree = "<group>";
 		};
-		8E91C4AF2543D27300185C41 /* 协议 */ = {
+		8E91C4AF2543D27300185C41 /* 协议✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C0AF267F837500AE3BA1 /* help20 */,
@@ -265,25 +265,25 @@
 				8E91C4B72543E0F100185C41 /* AMProtocolPart3.swift */,
 				8E91C4BA2543E71A00185C41 /* AMProtocolPart4.swift */,
 			);
-			path = "协议";
+			path = "协议✅";
 			sourceTree = "<group>";
 		};
-		8E91C4BD2545BD8500185C41 /* 泛型 */ = {
+		8E91C4BD2545BD8500185C41 /* 泛型✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C0AB267F817C00AE3BA1 /* help21 */,
 				8E91C4BE2545BE1E00185C41 /* AMFanPart1.swift */,
 			);
-			path = "泛型";
+			path = "泛型✅";
 			sourceTree = "<group>";
 		};
-		8E91C4C225464E6A00185C41 /* 访问控制 */ = {
+		8E91C4C225464E6A00185C41 /* 访问控制✅ */ = {
 			isa = PBXGroup;
 			children = (
 				8E71C0AD267F830D00AE3BA1 /* help22 */,
 				8E91C4C325464EA300185C41 /* AMLimitsPart1.swift */,
 			);
-			path = "访问控制";
+			path = "访问控制✅";
 			sourceTree = "<group>";
 		};
 		8EDA399225344AEA0045D1FD = {
@@ -305,10 +305,10 @@
 		8EDA399D25344AEA0045D1FD /* AMSwiftGGPractice */ = {
 			isa = PBXGroup;
 			children = (
-				8E91C4C225464E6A00185C41 /* 访问控制 */,
-				8E91C4BD2545BD8500185C41 /* 泛型 */,
-				8E91C4AF2543D27300185C41 /* 协议 */,
-				8E91C4AA2543CC6500185C41 /* 扩展 */,
+				8E91C4C225464E6A00185C41 /* 访问控制✅ */,
+				8E91C4BD2545BD8500185C41 /* 泛型✅ */,
+				8E91C4AF2543D27300185C41 /* 协议✅ */,
+				8E91C4AA2543CC6500185C41 /* 扩展✅ */,
 				8E91C4A92543CC5C00185C41 /* 嵌套类型 */,
 				8E5916162543BF7900074303 /* 类型转换✅ */,
 				8E5916112543B8E300074303 /* 错误处理 */,
