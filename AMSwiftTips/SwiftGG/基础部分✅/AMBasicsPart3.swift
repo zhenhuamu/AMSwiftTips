@@ -8,19 +8,19 @@
 import Foundation
 
 class AMBasicsPart3 {
-    func SetupTest() {
+    func setup() {
         
-        Point1()
-        Point2()
-        Point3()
-        Point4()
-        Point5()
-        Point6()
+        point1()
+        point2()
+        point3()
+        point4()
+        point5()
+        point6()
         
     }
     
     // MARK: 1.11 =========================== 元组
-    func Point1() {
+    func point1() {
         print("=========================== 元组")
         /// 元组（tuples）把多个值组合成一个复合值。元组内的值可以是任意类型，并不要求是相同类型。
         /// http404Error 的类型是 (Int, String)，值是 (404, "Not Found")
@@ -54,7 +54,7 @@ class AMBasicsPart3 {
     }
     
     // MARK: 1.12 =========================== 可选类型
-    func Point2() {
+    func point2() {
         print("=========================== 可选类型")
         /// 原始的可选项定义
         let x:Optional = 10
@@ -89,7 +89,7 @@ class AMBasicsPart3 {
     
     
     // MARK: 1.12.1 =========================== nil
-    func Point3() {
+    func point3() {
         print("=========================== nil")
         /// 你可以给可选变量赋值为 nil 来表示它没有值：
         var serverResponseCode: Int? = 404
@@ -111,7 +111,7 @@ class AMBasicsPart3 {
     /// 任何类型的可选状态都可以被设置为 nil，不只是对象类型。
     
     // MARK: 1.12.2 =========================== if 语句以及强制解析
-    func Point4() {
+    func point4() {
         print("=========================== if 语句以及强制解析")
         let possibleNumber = "123"
         let convertedNumber = Int(possibleNumber)
@@ -134,7 +134,7 @@ class AMBasicsPart3 {
     /// 同时可以将可选类型中的值赋给一个常量或者变量。
     /// if 和 while 语句，请参考 控制流。
     
-    func Point5() {
+    func point5() {
         print("=========================== 可选绑定")
         let possibleNumber = "100"
         /// 输出“'123' has an integer value of 123”
@@ -164,7 +164,7 @@ class AMBasicsPart3 {
     }
     
     // MARK: 1.12.4 =========================== 隐式解析可选类型
-    func Point6() {
+    func point6() {
         print("=========================== 隐式解析可选类型")
         /// 普通可选类型
         let possibleString: String? = "An optional string."

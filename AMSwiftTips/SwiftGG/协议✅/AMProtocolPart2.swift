@@ -8,8 +8,8 @@
 import Foundation
 
 class AMProtocolPart2 {
-    func SetupTest() {
-        Test()
+    func setup() {
+        point()
     }
     ///-------------------------协议构造器要求的类实现-----------------------------///
     /* 你可以在遵循协议的类中实现构造器，无论是作为指定构造器，还是作为便利构造器。
@@ -18,7 +18,7 @@ class AMProtocolPart2 {
     /* 注意
     如果类已经被标记为 final，那么不需要在协议构造器的实现中使用 required 修饰符，
     因为 final 类不能有子类。关于 final 修饰符的更多内容，请参见 防止重写。*/
-    func Test() {
+    func point() {
         class SomeClass: SomeProtocol2 {
             required init(someParameter: Int) {
                 // 这里是构造器的实现部分
@@ -47,7 +47,7 @@ class AMProtocolPart2 {
     作为函数、方法或构造器中的参数类型或返回值类型
     作为常量、变量或属性的类型
     作为数组、字典或其他容器中的元素类型*/
-    func Test1() {
+    func point1() {
         class LinearCongruentialGenerator : SomeProtocol4 {
             func random() -> Double {
                 return 5;

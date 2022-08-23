@@ -8,15 +8,15 @@
 import Foundation
 
 class AMBasicsOperatorPart2 {
-    func SetupTest() {
-        Point1()
-        Point2()
-        Point3()
+    func setup() {
+        point1()
+        point2()
+        point3()
     }
     
     // MARK: 1.1 =========================== 空合运算符
     /* 空合运算符（a ?? b）将对可选类型 a 进行空判断，如果 a 包含一个值就进行解包，否则就返回一个默认值 b。表达式 a 必须是 Optional 类型。默认值 b 的类型必须要和 a 存储值的类型保持一致。*/
-    func Point1() {
+    func point1() {
         print("=========================== 空合运算符")
         let a:String? = ""
         let b = ""
@@ -32,7 +32,7 @@ class AMBasicsOperatorPart2 {
     }
     
     // MARK: 1.2 =========================== 区间运算符
-    func Point2() {
+    func point2() {
         print("=========================== 区间运算符")
         // 闭区间运算符
         for index in 1...5 {
@@ -64,7 +64,7 @@ class AMBasicsOperatorPart2 {
     }
     
     // MARK: 1.3 =========================== 逻辑运算符
-    func Point3() {
+    func point3() {
         print("=========================== 逻辑运算符")
         let allowedEntry = false
         if !allowedEntry {

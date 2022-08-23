@@ -12,13 +12,13 @@ class AMTrivialPart {
     var str:String = ""
     var conplentionBlock:(() -> ())?
     
-    func SetupTest() {
-        test()
-        test1()
-        test2()
+    func setup() {
+        point()
+        point1()
+        point2()
     }
     // MARK: 1.1 =========================== {} 包装代码 （）是表示执行
-    func test() {
+    func point() {
         var _:String = {
             let string = "123"
             return string
@@ -26,7 +26,7 @@ class AMTrivialPart {
     }
     
     // MARK: 1.2 =========================== 解除循环引用的三种方式
-    func test1() {
+    func point1() {
         
         
         /// 方法一:OC方式
@@ -54,7 +54,7 @@ class AMTrivialPart {
     }
 
     // MARK: 1.3 =========================== Swift 中.self和 type(of:)
-    func test2() {
+    func point2() {
         let temp1 = AMAsPart1.self
         let temp2 = AMAsPart1().self
         print("\(temp1)=====\(temp2)")

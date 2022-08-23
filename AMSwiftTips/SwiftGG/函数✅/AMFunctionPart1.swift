@@ -8,12 +8,12 @@
 import Foundation
 
 class AMFunctionPart1 {
-    func SetupTest() {
-        Test()
+    func setup() {
+        point()
     }
 
     // MARK: 1.1 =========================== 函数 & 函数参数与返回值
-    func Test() {
+    func point() {
         func greet(person: String) -> String {
             let greeting = "Hello, " + person + "!"
             return greeting

@@ -8,13 +8,13 @@
 import Foundation
 
 class AMBasicsPart1 {
-    func SetupTest() {
-        Point1()
-        Point2()
-        Point3()
-        Point4()
-        Point5()
-        Point6()
+    func setup() {
+        point1()
+        point2()
+        point3()
+        point4()
+        point5()
+        point6()
     }
     
     // MARK: 1.1 =========================== 常量和变量
@@ -23,7 +23,7 @@ class AMBasicsPart1 {
     /// 常量的值一旦设定就不能改变，而变量的值可以随意更改。
     
     // MARK: 1.1.1 =========================== 声明常量和变量
-    func Point1() {
+    func point1() {
         print("=========================== 声明常量和变量")
         /// 常量
         let maximumNumberOfLoginAttempts = 10
@@ -40,7 +40,7 @@ class AMBasicsPart1 {
     
     // MARK: 1.1.2 =========================== 类型注解
 
-    func Point2() {
+    func point2() {
         print("=========================== 类型注解")
         /// 添加类型注解，需要在常量或者变量名后面加上一个冒号和空格，然后加上类型名称
         let welcomeMessage: String = ""
@@ -58,7 +58,7 @@ class AMBasicsPart1 {
     /// 常量和变量名可以包含任何字符，包括 Unicode 字符：
     /// 常量与变量名不能包含数学符号，箭头，保留的（或者非法的）Unicode 码位，连线与制表符。
     /// 也不能以数字开头，但是可以在常量与变量名的其他地方包含数字。
-    func Point3() {
+    func point3() {
         print("=========================== 常量和变量的命名")
         let π = 3.14159
         let 你好 = "你好世界"
@@ -76,7 +76,7 @@ class AMBasicsPart1 {
     /// Xcode，print(_:separator:terminator:) 将会输出内容到“console”面板上。
     /// separator 和 terminator参数具有默认值，因此你调用这个函数的时候可以忽略它们。
     /// 默认情况下，该函数通过添加换行符来结束当前行。如果不想换行，可以传递一个空字符串给 terminator 参数 */
-    func Point4() {
+    func point4() {
         print("=========================== 输出常量和变量")
         print("123")
         print("123", terminator: "")
@@ -105,7 +105,7 @@ class AMBasicsPart1 {
     
     // MARK: 1.3 =========================== 分号
 
-    func Point5() {
+    func point5() {
         /* 与其他大部分编程语言不同，Swift 并不强制要求你在每条语句的结尾处使用分号（;），
          当然，你也可以按照你自己的习惯添加分号。有一种情况下必须要用分号，即你打算在同一行内写多条独立的语句：*/
         print("=========================== 分号")
@@ -124,7 +124,7 @@ class AMBasicsPart1 {
     /// Int8 类型minValue为-128，maxValue为127
     let minValue2 = Int8.min
     let maxValue2 = Int8.max
-    func Point6() {
+    func point6() {
         print("=========================== 整数范围")
         print(minValue1,maxValue1,minValue2,maxValue2)
     }

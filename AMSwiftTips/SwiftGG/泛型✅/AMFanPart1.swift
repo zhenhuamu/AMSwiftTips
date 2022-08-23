@@ -9,13 +9,13 @@ import Foundation
 
 class AMFanPart1 {
 
-    func SetupTest() {
-        Test()
-        Test1()
+    func setup() {
+        point()
+        point1()
     }
     
     // MARK: 1.1 =========================== 泛型解决的问题
-    func Test() {
+    func point() {
         func swapTwoInts(_ a: inout Int, _ b: inout Int) {
             let temporaryA = a
             a = b
@@ -44,7 +44,7 @@ class AMFanPart1 {
     }
     
     // MARK: 1.2 =========================== 泛型函数
-    func Test1() {
+    func point1() {
         func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
             let temporaryA = a
             a = b

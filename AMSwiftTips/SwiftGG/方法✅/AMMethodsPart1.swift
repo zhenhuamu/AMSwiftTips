@@ -9,16 +9,16 @@ import Foundation
 
 class AMMethodsPart1 {
 
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
-        Test3()
-        Test4()
+    func setup() {
+        point()
+        point1()
+        point2()
+        point3()
+        point4()
     }
     
     // MARK: 1.1 =========================== 实例方法
-    func Test() {
+    func point() {
         class Counter {
             var count = 0
             func increment() {
@@ -43,7 +43,7 @@ class AMMethodsPart1 {
     }
     
     // MARK: 1.2 =========================== self 属性
-    func Test1() {
+    func point1() {
         /* 类型的每一个实例都有一个隐含属性叫做 self，self 完全等同于该实例本身。
         你可以在一个实例的实例方法中使用这个隐含的 self 属性来引用当前实例。*/
         class Counter {
@@ -72,7 +72,7 @@ class AMMethodsPart1 {
     但是，如果你确实需要在某个特定的方法中修改结构体或者枚举的属性，你可以为这个方法选择 可变（mutating）行为，然后就可以从其方法内部改变它的属性；
     并且这个方法做的任何改变都会在方法执行结束时写回到原始结构中。方法还可以给它隐含的 self 属性赋予一个全新的实例，这个新实例在方法结束时会替换现存实例。
      要使用 可变方法，将关键字 mutating 放到方法的 func 关键字之前就可以了：*/
-    func Test2() {
+    func point2() {
         struct Point {
             var x = 0.0, y = 0.0
             mutating func moveBy(x deltaX: Double, y deltaY: Double) {
@@ -87,7 +87,7 @@ class AMMethodsPart1 {
     }
     
     // MARK: 1.4 =========================== 在可变方法中给 self 赋值
-    func Test3() {
+    func point3() {
         struct Point {
             var x = 0.0, y = 0.0
             mutating func moveBy(x deltaX: Double, y deltaY: Double) {
@@ -121,7 +121,7 @@ class AMMethodsPart1 {
     /* 实例方法是被某个类型的实例调用的方法。你也可以定义在类型本身上调用的方法，这种方法就叫做类型方法。
     在方法的 func 关键字之前加上关键字 static，来指定类型方法。
     类还可以用关键字 class 来指定，从而允许子类重写父类该方法的实现。*/
-    func Test4() {
+    func point4() {
         class SomeClass {
             class func someTypeMethod() {
                 // 在这里实现类型方法

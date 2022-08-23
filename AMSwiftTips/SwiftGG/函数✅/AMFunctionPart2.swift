@@ -8,12 +8,12 @@
 import Foundation
 
 class AMFunctionPart2 {
-    func SetupTest() {
-        Test()
-        Test1()
+    func setup() {
+        point()
+        point1()
     }
     // MARK: 1.1 =========================== 函数参数标签和参数名称
-    func Test() {
+    func point() {
         func someFunction(firstParameterName: Int, secondParameterName: Int) {
             // 在函数体内，firstParameterName 和 secondParameterName 代表参数中的第一个和第二个参数值
         }
@@ -73,7 +73,7 @@ class AMFunctionPart2 {
     }
     
     // MARK: 1.2 =========================== 函数类型
-    func Test1() {
+    func point1() {
         // 每个函数都有种特定的函数类型，函数的类型由函数的参数类型和返回类型组成。
         func addTwoInts(_ a: Int, _ b: Int) -> Int {
             return a + b

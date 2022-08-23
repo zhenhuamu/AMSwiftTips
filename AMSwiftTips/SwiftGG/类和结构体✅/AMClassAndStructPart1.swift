@@ -8,11 +8,11 @@
 import Foundation
 
 class AMClassAndStructPart1 {
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
-        Test3()
+    func setup() {
+        point()
+        point1()
+        point2()
+        point3()
     }
     
     // MARK: 1.1 =========================== 类型定义的语法、结构体和类的实例、属性访问
@@ -40,7 +40,7 @@ class AMClassAndStructPart1 {
     let someResolution = Resolution()
     let someVideoMode = VideoMode()
     
-    func Test() {
+    func point() {
         // 属性访问
         print("The width of someResolution is \(someResolution.width)")
         // 打印 "The width of someResolution is 0"
@@ -59,7 +59,7 @@ class AMClassAndStructPart1 {
     }
     
     // MARK: 1.2 =========================== 结构体和枚举是值类型
-    func Test1() {
+    func point1() {
         let hd = Resolution(width: 1920, height: 1080)
         var cinema = hd
         cinema.width = 2048
@@ -76,7 +76,7 @@ class AMClassAndStructPart1 {
     // MARK: 1.3 =========================== 类是引用类型
     /* 与值类型不同，引用类型在被赋予到一个变量、常量或者被传递到一个函数时，其值不会被拷贝。
      因此，使用的是已存在实例的引用，而不是其拷贝。*/
-    func Test2() {
+    func point2() {
         let tenEighty = VideoMode()
         tenEighty.resolution = Resolution(width: 1920, height: 1080)
         tenEighty.interlaced = true
@@ -97,7 +97,7 @@ class AMClassAndStructPart1 {
     不相同 引用类型（!==） 值类型 (!=)
     */
     
-    func Test3() {
+    func point3() {
         
         let hd = Resolution(width: 1920, height: 1080)
         let alsohd = hd

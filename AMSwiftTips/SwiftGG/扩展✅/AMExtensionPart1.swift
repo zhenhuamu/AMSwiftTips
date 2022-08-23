@@ -9,7 +9,7 @@ import Foundation
 
 class AMExtensionPart1 {
 
-    func SetupTest() {
+    func setup() {
         
     }
     

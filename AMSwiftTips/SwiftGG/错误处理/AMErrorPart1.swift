@@ -9,12 +9,12 @@ import Foundation
 
 class AMErrorPart1 {
 
-    func SetupTest() {
-        Test()
+    func setup() {
+        point()
     }
     
     ///-------------------------标示与抛出错误-----------------------------///
-    func Test() {
+    func point() {
         // 标示
         enum VendingMachineError: Error {
             case invalidSelection                       //选择无效
@@ -26,22 +26,22 @@ class AMErrorPart1 {
     }
     
     ///-------------------------表示与抛出错误-----------------------------///
-    func Test1() {
+    func point1() {
         
     }
     
     ///-------------------------表示与抛出错误-----------------------------///
-    func Test2() {
+    func point2() {
         
     }
     
     ///-------------------------表示与抛出错误-----------------------------///
-    func Test3() {
+    func point3() {
         
     }
     
     ///-------------------------表示与抛出错误-----------------------------///
-    func Test4() {
+    func point4() {
         
     }
     

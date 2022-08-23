@@ -8,13 +8,13 @@
 import Foundation
 
 class AMSetPart3 {
-    func SetupTest() {
-        Test()
-        Test1()
+    func setup() {
+        point()
+        point1()
     }
     
     // MARK: 1.1 =========================== 字典
-    func Test() {
+    func point() {
         // 创建一个空字典
         var namesOfIntegers = [Int: String]()
         // namesOfIntegers 是一个空的 [Int: String] 字典
@@ -72,7 +72,7 @@ class AMSetPart3 {
     }
     
     // MARK: 1.2 =========================== 字典遍历
-    func Test1() {
+    func point1() {
         let airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
         for (airportCode, airportName) in airports {
             print("\(airportCode): \(airportName)")

@@ -9,20 +9,20 @@ import Foundation
 
 class AMProtocolPart1 {
 
-    func SetupTest() {
-        Test()
-        Test1()
+    func setup() {
+        point()
+        point1()
     }
     
     // MARK: 1.1 =========================== 协议语法
-    func Test() {
+    func point() {
         class SomeClass: FirstProtocol, AnotherProtocol {
             // 这里是类的定义部分
         }
     }
 
     // MARK: 1.2 =========================== 异变方法要求
-    func Test1() {
+    func point1() {
         enum OnOffSwitch: Togglable {
             case off, on
             mutating func toggle() {

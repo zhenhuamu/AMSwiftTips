@@ -8,17 +8,17 @@
 import Foundation
 
 class AMStringPart2 {
-    func SetupTest() {
-        Point1()
-        Point2()
-        Point3()
-        Point4()
-        Point5()
-        Point6()
+    func setup() {
+        point1()
+        point2()
+        point3()
+        point4()
+        point5()
+        point6()
     }
     
     // MARK: 1.1 =========================== 字符串插值
-    func Point1() {
+    func point1() {
         print("=========================== 字符串插值")
         let multiplier = 3
         let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
@@ -29,7 +29,7 @@ class AMStringPart2 {
     }
     
     // MARK: 1.2 =========================== Unicode
-    func Point2() {
+    func point2() {
         print("=========================== Unicode")
         let eAcute: Character = "\u{E9}"
         let combinedEAcute: Character = "\u{65}\u{301}"
@@ -40,7 +40,7 @@ class AMStringPart2 {
         print(eAcute,combinedEAcute,precomposed,decomposed,enclosedEAcute,regionalIndicatorForUS)
     }
     // MARK: 1.3 =========================== 计算字符数量
-    func Point3() {
+    func point3() {
         print("=========================== 计算字符数量")
         let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
         print("unusualMenagerie has \(unusualMenagerie.count) characters")
@@ -54,7 +54,7 @@ class AMStringPart2 {
         // 另外需要注意的是通过 count 属性返回的字符数量并不总是与包含相同字符的 NSString 的 length 属性相同。NSString 的 length 属性是利用 UTF-16 表示的十六位代码单元数字，而不是 Unicode 可扩展的字符群集。
     }
     // MARK: 1.4 =========================== 访问和修改字符串
-    func Point4() {
+    func point4() {
         print("=========================== 访问和修改字符串")
         let greeting = "Guten Tag!"
         let a = greeting[greeting.startIndex]
@@ -87,7 +87,7 @@ class AMStringPart2 {
         print("")
     }
     // MARK: 1.5 =========================== 子字符串
-    func Point5() {
+    func point5() {
         print("=========================== 子字符串")
         let greeting = "Hello, world!"
         let index = greeting.firstIndex(of: ",") ?? greeting.endIndex
@@ -105,7 +105,7 @@ class AMStringPart2 {
         /// 就像前面说的那样，Substring 不适合长期存储 —— 因为它重用了原 String 的内存空间，原 String 的内存空间必须保留直到它的 Substring 不再被使用为止。
     }
     // MARK: 1.6 =========================== 比较字符串
-    func Point6() {
+    func point6() {
         print("=========================== 比较字符串")
         let quotation = "We're a lot alike, you and I."
         let sameQuotation = "We're a lot alike, you and I."

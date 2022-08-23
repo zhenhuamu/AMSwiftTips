@@ -8,18 +8,18 @@
 import Foundation
 
 class AMBasicsPart2 {
-    func SetupTest() {
-        Point1()
-        Point2()
-        Point3()
-        Point4()
-        Point5()
-        Point6()
-        Point7()
+    func setup() {
+        point1()
+        point2()
+        point3()
+        point4()
+        point5()
+        point6()
+        point7()
     }
     
     // MARK: 1.6 =========================== 类型安全和类型推断
-    func Point1() {
+    func point1() {
         print("=========================== 类型安全和类型推断")
         /// meaningOfLife 会被推测为 Int 类型
         let meaningOfLife = 42
@@ -41,7 +41,7 @@ class AMBasicsPart2 {
     /// 一个八进制数，前缀是 0o
     /// 一个十六进制数，前缀是 0x
     
-    func Point2() {
+    func point2() {
         print("=========================== 数值型字面量")
         let decimalInteger = 17
         /// 二进制的17
@@ -58,7 +58,7 @@ class AMBasicsPart2 {
     /// 十进制浮点数也可以有一个可选的指数（exponent)，通过大写或者小写的 e 来指定
     /// 十六进制浮点数必须有一个指数，通过大写或者小写的 p 来指定
     
-    func Point3() {
+    func point3() {
         /// 12.1875
         let decimalDouble = 12.1875
         /// 12.1875
@@ -69,7 +69,7 @@ class AMBasicsPart2 {
     }
     
     /// 数值类字面量可以包括额外的格式来增强可读性。
-    func Point4() {
+    func point4() {
         let paddedDouble = 000123.456
         let oneMillion = 1_000_000
         let justOverOneMillion = 1_000_000.000_000_1
@@ -95,7 +95,7 @@ class AMBasicsPart2 {
     /// Int8 类型不能存储超过最大值的数，所以会报错
     /// let tooBig: Int8 = Int8.max + 1
     
-    func Point5() {
+    func point5() {
         print("=========================== 整数转换")
         let twoThousand: UInt16 = 2
         let one: UInt8 = 1
@@ -107,7 +107,7 @@ class AMBasicsPart2 {
     
     // MARK: 1.8.2 =========================== 整数和浮点数转换
     
-    func Point6() {
+    func point6() {
         print("=========================== 整数和浮点数转换")
         let three = 3
         let pointOneFourOneFiveNine = 0.14159
@@ -123,7 +123,7 @@ class AMBasicsPart2 {
     
     
     // MARK: 1.9 =========================== 类型别名
-    func Point7() {
+    func point7() {
         print("=========================== 类型别名")
         typealias AudioSample = UInt16
         let maxAmplitudeFound = AudioSample.min
@@ -132,7 +132,7 @@ class AMBasicsPart2 {
     }
     
     // MARK: 1.10 =========================== 布尔值
-    func Point8() {
+    func point8() {
         _ = true
         _ = false
         /// 这个例子不会通过编译，会报错

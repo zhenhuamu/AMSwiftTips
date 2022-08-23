@@ -9,17 +9,17 @@ import Foundation
 
 class AMInitPart2 {
     
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
+    func setup() {
+        point()
+        point1()
+        point2()
     }
     
     // MARK: 1.1 =========================== 默认构造器
     /* 如果结构体或类为所有属性提供了默认值，又没有提供任何自定义的构造器，
     那么 Swift 会给这些结构体或类提供一个默认构造器。
     这个默认构造器将简单地创建一个所有属性值都设置为它们默认值的实例。*/
-    func Test() {
+    func point() {
         class ShoppingListItem {
             var name: String?
             var quantity = 1
@@ -52,7 +52,7 @@ class AMInitPart2 {
     /* 类里面的所有存储型属性——包括所有继承自父类的属性——都必须在构造过程中设置初始值。
      Swift 为类类型提供了两种构造器来确保实例中所有存储型属性都能获得初始值，
      它们被称为指定构造器和便利构造器。*/
-    func Test1() {
+    func point1() {
         // 指定构造器和便利构造
         /*
         指定构造器是类中最主要的构造器。一个指定构造器将初始化类中提供的所有属性，并调用合适的父类构造器让构造过程沿着父类链继续往上进行。
@@ -147,7 +147,7 @@ class AMInitPart2 {
     }
     
     // MARK: 1.4 =========================== 指定构造器和便利构造器实践
-    func Test2() {
+    func point2() {
         class Food {
             var name: String
             init(name: String) {

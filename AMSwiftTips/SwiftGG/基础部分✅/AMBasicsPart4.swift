@@ -8,10 +8,10 @@
 import Foundation
 
 class AMBasicsPart4 {
-    func SetupTest() {
-        Point1()
-        Point2()
-        Point3()
+    func setup() {
+        point1()
+        point2()
+        point3()
     }
     
     // MARK: 1.13 =========================== 错误处理
@@ -24,7 +24,7 @@ class AMBasicsPart4 {
         /// ...
     }
 
-    func Point1() {
+    func point1() {
         do {
             try makeASandwich()
             /// 没有错误消息抛出
@@ -46,7 +46,7 @@ class AMBasicsPart4 {
     
     // MARK: 1.14.1 =========================== 使用断言进行调试
     
-    func Point2() {
+    func point2() {
         print("=========================== 使用断言进行调试")
         let age = 3
         /// Swift 标准库的 assert(_:_:file:line:) 函数来写一个断言。
@@ -67,7 +67,7 @@ class AMBasicsPart4 {
 
     // MARK: 1.14.2 =========================== 强制执行先决条件
     
-    func Point3() {
+    func point3() {
         let index = 10
         
         /// 你可以使用全局 precondition(_:_:file:line:) 函数来写一个先决条件。

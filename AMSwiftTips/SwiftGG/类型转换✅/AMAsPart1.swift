@@ -10,17 +10,17 @@ import Foundation
 
 class AMAsPart1 {
 
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
+    func setup() {
+        point()
+        point1()
+        point2()
     }
     
     // MARK: 1.1 =========================== 为类型转换定义类层次
     /* 你可以将类型转换用在类和子类的层次结构上，
     检查特定类实例的类型并且转换这个类实例的类型成为这个层次结构中的其他类型。
     下面的三个代码段定义了一个类层次和一个包含了这些类实例的数组，作为类型转换的例子。*/
-    func Test() {
+    func point() {
         class MediaItem {
             var name: String
             init(name: String) {
@@ -109,7 +109,7 @@ class AMAsPart1 {
      AnyObject 可以表示任何类类型的实例。
      只有当你确实需要它们的行为和功能时才使用 Any 和 AnyObject。最好还是在代码中指明需要使用的类型。
      */
-    func Test1() {
+    func point1() {
         
         class MediaItem {
             var name: String
@@ -171,7 +171,7 @@ class AMAsPart1 {
      Any 类型可以表示所有类型的值，包括可选类型。
      Swift 会在你用 Any 类型来表示一个可选值的时候，给你一个警告。
      如果你确实想使用 Any 类型来承载可选值，你可以使用 as 操作符显式转换为 Any，如下所示：*/
-    func Test2() {
+    func point2() {
         let optionalNumber: Int? = 3
         var things = [Any]()
 

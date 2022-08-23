@@ -8,18 +8,18 @@
 import Foundation
 
 class AMBasicsOperatorPart1 {
-    func SetupTest() {
-        Point1()
-        Point2()
-        Point3()
-        Point4()
-        Point5()
-        Point6()
-        Point7()
+    func setup() {
+        point1()
+        point2()
+        point3()
+        point4()
+        point5()
+        point6()
+        point7()
     }
     
     // MARK: 1.1 =========================== 赋值运算符
-    func Point1() {
+    func point1() {
         print("=========================== 赋值运算符")
         let b = 10
         var a = 5
@@ -36,7 +36,7 @@ class AMBasicsOperatorPart1 {
     }
     
     // MARK: 1.2 =========================== 算术运算符
-    func Point2() {
+    func point2() {
         print("=========================== 算术运算符")
         let a = 1 + 2
         let b = 5 - 3
@@ -49,7 +49,7 @@ class AMBasicsOperatorPart1 {
     }
     
     // MARK: 1.3 =========================== 求余运算符
-    func Point3() {
+    func point3() {
         print("=========================== 求余运算符")
         let a = 9 % 4
         let b = -9 % 4
@@ -60,7 +60,7 @@ class AMBasicsOperatorPart1 {
     }
     
     // MARK: 1.4 =========================== 一元负号运算符 & 一元正号运算符 & 组合赋值运算符
-    func Point4() {
+    func point4() {
         print("=========================== 一元负号运算符 & 一元正号运算符 & 组合赋值运算符")
         let three = 3
         let minusThree = -three
@@ -79,7 +79,7 @@ class AMBasicsOperatorPart1 {
     }
     
     // MARK: 1.5 =========================== 比较运算符
-    func Point5() {
+    func point5() {
         print("=========================== 比较运算符")
         let name = "world"
         if name == "world" {
@@ -106,7 +106,7 @@ class AMBasicsOperatorPart1 {
     }
     
     // MARK: 1.6 =========================== 三元运算符
-    func Point6() {
+    func point6() {
         print("=========================== 三元运算符")
         /*三元运算符的特殊在于它是有三个操作数的运算符，它的形式是 问题 ? 答案 1 : 答案 2。
          它简洁地表达根据 问题成立与否作出二选一的操作。如果 问题 成立，返回 答案 1 的结果；
@@ -125,7 +125,7 @@ class AMBasicsOperatorPart1 {
     // MARK: 1.7 =========================== 溢出运算符
     /* 与 C 语言和 Objective-C 不同的是，Swift 默认情况下不允许在数值运算中出现溢出情况。但是你可以使用 Swift 的溢出运算符来实现溢出运算（如 a &+ b）*/
     
-    func Point7() {
+    func point7() {
         print("=========================== 溢出运算符")
         let m = Int.max
         let n = 1

@@ -9,7 +9,7 @@ import Foundation
 
 class AMDeinitPart3 {
 
-    func SetupTest() {
+    func setup() {
         class Bank {
             static var coinsInBank = 10_000
             static func distribute(coins numberOfCoinsRequested: Int) -> Int {

@@ -9,13 +9,13 @@ import Foundation
 
 class AMInheritPart1 {
     
-    func SetupTest() {
-        Test()
-        Test1()
+    func setup() {
+        point()
+        point1()
     }
     
     // MARK: 1.1 =========================== 子类生成
-    func Test() {
+    func point() {
         /* 注意
          Swift 中的类并不是从一个通用的基类继承而来的。
          如果你不为自己定义的类指定一个超类的话，这个类就会自动成为基类。*/
@@ -62,7 +62,7 @@ class AMInheritPart1 {
      在属性 someProperty 的 getter 或 setter 的重写实现中，可以通过 super.someProperty 来访问超类版本的 someProperty 属性。
      在下标的重写实现中，可以通过 super[someIndex] 来访问超类版本中的相同下标。*/
     
-    func Test1() {
+    func point1() {
         class Vehicle {
             var currentSpeed = 0.0
             var description: String {

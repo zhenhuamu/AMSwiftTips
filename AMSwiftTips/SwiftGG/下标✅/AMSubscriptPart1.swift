@@ -8,15 +8,15 @@
 import Foundation
 
 class AMSubscriptPart1 {
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
-        Test4()
+    func setup() {
+        point()
+        point1()
+        point2()
+        point4()
     }
     
     // MARK: 1.1 =========================== 下标语法
-    func Test() {
+    func point() {
         struct TimesTable {
             let multiplier: Int
             subscript(index: Int) -> Int {
@@ -33,7 +33,7 @@ class AMSubscriptPart1 {
     // MARK: 1.2 =========================== 下标用法
     /* “下标”的确切含义取决于使用场景。下标通常作为访问集合，列表或序列中元素的快捷方式。
     你可以针对自己特定的类或结构体功能来以最恰当的方式实现下标。*/
-    func Test1() {
+    func point1() {
         /*例如，Swift 的 Dictionary 类型实现下标用于对实例中储存的值进行存取操作。
         为字典设值时，在下标中使用和字典的键类型相同的键，并把一个和字典的值类型相同的值赋给这个下标：*/
         var numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
@@ -42,7 +42,7 @@ class AMSubscriptPart1 {
     
     // MARK: 1.3 =========================== 下标选项
     // 下标可以接受任意数量的入参，并且这些入参可以是任何类型。下标的返回值也可以是任意类型。
-    func Test2() {
+    func point2() {
         struct Matrix {
             let rows: Int, columns: Int
             var grid: [Double]
@@ -76,7 +76,7 @@ class AMSubscriptPart1 {
     你可以通过在 subscript 关键字之前写下 static 关键字的方式来表示一个类型下标。
     类类型可以使用 class 关键字来代替 static，它允许子类重写父类中对那个下标的实现。
     下面的例子展示了如何定义和调用一个类型下标：*/
-    func Test4() {
+    func point4() {
         enum Planet: Int {
             case mercury = 1, venus, earth, mars, jupiter, saturn, uranus, neptune
             static subscript(n: Int) -> Planet {

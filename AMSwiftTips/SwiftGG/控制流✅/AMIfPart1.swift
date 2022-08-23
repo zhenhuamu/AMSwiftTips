@@ -8,15 +8,15 @@
 import Foundation
 
 class AMIfPart1 {
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
-        Test3()
+    func setup() {
+        point()
+        point1()
+        point2()
+        point3()
     }
 
     // MARK: 1.1 =========================== For-In 循环
-    func Test() {
+    func point() {
         
         // 数组
         let names = ["Anna", "Alex", "Brian", "Jack"]
@@ -75,7 +75,7 @@ class AMIfPart1 {
     }
     
     // MARK: 1.2 =========================== While 循环
-    func Test1() {
+    func point1() {
         // While 循环
         let finalSquare = 25
         var board = [Int](repeating: 0, count: finalSquare + 1)
@@ -119,7 +119,7 @@ class AMIfPart1 {
     }
     
     // MARK: 1.3 =========================== 条件语句 If
-    func Test2() {
+    func point2() {
         // If
         var temperatureInFahrenheit = 30
         if temperatureInFahrenheit <= 32 {
@@ -144,7 +144,7 @@ class AMIfPart1 {
     }
     
     // MARK: 1.4 =========================== 条件语句 switch
-    func Test3() {
+    func point3() {
         let someCharacter: Character = "z"
         switch someCharacter {
         case "a":

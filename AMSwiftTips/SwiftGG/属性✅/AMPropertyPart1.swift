@@ -8,14 +8,14 @@
 import Foundation
 
 class AMPropertyPart1 {
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
+    func setup() {
+        point()
+        point1()
+        point2()
     }
     
     // MARK: 1.1 =========================== 存储属性
-    func Test() {
+    func point() {
         struct FixedLengthRange {
             var firstValue: Int
             let length: Int
@@ -41,7 +41,7 @@ class AMPropertyPart1 {
      在属性声明前使用 lazy 来标示一个延时加载存储属性。*/
     /* 必须将延时加载属性声明成变量（使用 var 关键字），因为属性的初始值可能在实例构造完成之后才会得到。
      而常量属性在构造过程完成之前必须要有初始值，因此无法声明成延时加载。*/
-    func Test1() {
+    func point1() {
         class DataImporter {
             /*
             DataImporter 是一个负责将外部文件中的数据导入的类。
@@ -76,7 +76,7 @@ class AMPropertyPart1 {
     // MARK: 1.4 =========================== 计算属性
     /* 除存储属性外，类、结构体和枚举可以定义计算属性。
      计算属性不直接存储值，而是提供一个 getter 和一个可选的 setter，来间接获取和设置其他属性或变量的值。*/
-    func Test2() {
+    func point2() {
         struct Point {
             var x = 0.0, y = 0.0
         }

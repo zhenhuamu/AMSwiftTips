@@ -8,19 +8,19 @@
 import Foundation
 
 class AMStringPart1 {
-    func SetupTest() {
-        Point1()
-        Point2()
-        Point3()
-        Point4()
-        Point5()
-        Point6()
-        Point7()
-        Point8()
+    func setup() {
+        point1()
+        point2()
+        point3()
+        point4()
+        point5()
+        point6()
+        point7()
+        point8()
     }
     
     // MARK: 1.1 =========================== 字符串字面量
-    func Point1() {
+    func point1() {
         print("=========================== 字符串字面量")
         // 字符串字面量
         let someString = "Some string literal value"
@@ -58,7 +58,7 @@ class AMStringPart1 {
     }
     
     // MARK: 1.2 =========================== 字符串字面量的特殊字符
-    func Point2() {
+    func point2() {
         print("=========================== 字符串字面量的特殊字符")
         let wiseWords = "\"Imagination is more important than knowledge\" - Einstein"
         let dollarSign = "\u{24}"
@@ -67,7 +67,7 @@ class AMStringPart1 {
         print(wiseWords,dollarSign,blackHeart,sparklingHeart)
     }
     // MARK: 1.3 =========================== 扩展字符串分隔符
-    func Point3() {
+    func point3() {
         print("=========================== 扩展字符串分隔符")
         let a = #"Line 1 \nLine 2"#
         let b = #"Line 1 \#nLine 2"#
@@ -75,7 +75,7 @@ class AMStringPart1 {
         print(b)
     }
     // MARK: 1.4 =========================== 初始化空字符串
-    func Point4() {
+    func point4() {
         print("=========================== 初始化空字符串")
         // 初始化空字符串
         let emptyString = ""               // 空字符串字面量
@@ -88,7 +88,7 @@ class AMStringPart1 {
     }
     
     // MARK: 1.5 =========================== 字符串可变性
-    func Point5() {
+    func point5() {
         print("=========================== 字符串可变性")
         var variableString = "Horse"
         variableString += " and carriage"
@@ -101,7 +101,7 @@ class AMStringPart1 {
     }
     
     // MARK: 1.6 =========================== 字符串是值类型
-    func Point6() {
+    func point6() {
         print("=========================== 字符串是值类型")
         let a = "Horse"
         var b = a
@@ -110,7 +110,7 @@ class AMStringPart1 {
     }
     
     // MARK: 1.7 =========================== 使用字符
-    func Point7() {
+    func point7() {
         print("=========================== 使用字符")
         // 你可通过 for-in 循环来遍历字符串，获取字符串中每一个字符的值：
         for character in "Dog!🐶" {
@@ -134,7 +134,7 @@ class AMStringPart1 {
     }
     
     // MARK: 1.8 =========================== 连接字符串和字符
-    func Point8() {
+    func point8() {
         print("=========================== 连接字符串和字符")
         let string1 = "hello"
         let string2 = " there"

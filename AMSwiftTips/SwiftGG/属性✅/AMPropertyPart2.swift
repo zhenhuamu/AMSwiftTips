@@ -8,9 +8,9 @@
 import Foundation
 
 class AMPropertyPart2 {
-    func SetupTest() {
-        Test()
-        Test1()
+    func setup() {
+        point()
+        point1()
     }
     
     // MARK: 1.1 =========================== 属性观察器
@@ -18,7 +18,7 @@ class AMPropertyPart2 {
      willSet 在新的值被设置之前调用
      didSet 在新的值被设置之后调用*/
     
-    func Test() {
+    func point() {
         class StepCounter {
             var totalSteps: Int = 0 {
                 willSet(newTotalSteps) {
@@ -59,7 +59,7 @@ class AMPropertyPart2 {
     /* 实例属性属于一个特定类型的实例，
      每创建一个实例，实例都拥有属于自己的一套属性值，实例之间的属性相互独立。*/
     /* 类型属性用于定义某个类型所有实例共享的数据，比如所有实例都能用的一个常量（就像 C 语言中的静态常量），或者所有实例都能访问的一个变量（就像 C 语言中的静态变量）。*/
-    func Test1() {
+    func point1() {
         /*使用关键字 static 来定义类型属性。在为类定义计算型类型属性时，可以改用关键字 class 来支持子类对父类的实现进行重写。下面的例子演示了存储型和计算型类型属性的语法：*/
         struct SomeStructure {
             static var storedTypeProperty = "Some value."

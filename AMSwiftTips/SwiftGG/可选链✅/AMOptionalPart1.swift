@@ -9,17 +9,17 @@ import Foundation
 
 class AMOptionalPart1 {
     
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
+    func setup() {
+        point()
+        point1()
+        point2()
     }
     
     // MARK: 1.1 =========================== 使用可选链式调用代替强制解包
     /* 通过在想调用的属性、方法，或下标的可选值后面放一个问号（?），可以定义一个可选链。
     这一点很像在可选值后面放一个叹号（!）来强制解包它的值。
     它们的主要区别在于当可选值为空时可选链式调用只会调用失败，然而强制解包将会触发运行时错误。*/
-    func Test() {
+    func point() {
         class Person {
             var residence: Residence?
         }
@@ -44,7 +44,7 @@ class AMOptionalPart1 {
     // MARK: 1.2 =========================== 为可选链式调用定义模型类
     /* 通过使用可选链式调用可以调用多层属性、方法和下标。
     这样可以在复杂的模型中向下访问各种子属性，并且判断能否访问子属性的属性、方法和下标。*/
-    func Test1() {
+    func point1() {
         class Person {
             var residence: Residence?
         }
@@ -151,7 +151,7 @@ class AMOptionalPart1 {
     
     // MARK: 1.5 =========================== 访问可选类型的下标
     /* 如果下标返回可选类型值，比如 Swift 中 Dictionary 类型的键的下标，可以在下标的结尾括号后面放一个问号来在其可选返回值上进行可选链式调用：*/
-    func Test2() {
+    func point2() {
         var testScores = ["Dave": [86, 82, 84], "Bev": [79, 94, 81]]
         testScores["Dave"]?[0] = 91
         testScores["Bev"]?[0] += 1

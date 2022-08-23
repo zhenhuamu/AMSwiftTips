@@ -8,12 +8,12 @@
 import Foundation
 
 class AMBlocksPart2 {
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
-        Test3()
-        Test4()
+    func setup() {
+        point()
+        point1()
+        point2()
+        point3()
+        point4()
     }
     let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
     // MARK: 1.1 =========================== 尾随闭包
@@ -21,7 +21,7 @@ class AMBlocksPart2 {
      将这个闭包替换成为尾随闭包的形式很有用。
      尾随闭包是一个书写在函数圆括号之后的闭包表达式，函数支持将其作为最后一个参数调用。
      在使用尾随闭包时，你不用写出它的参数标签：*/
-    func Test() {
+    func point() {
         func someFunctionThatTakesAClosure(closure: () -> Void) {
             // 函数体部分
         }
@@ -67,7 +67,7 @@ class AMBlocksPart2 {
     }
     
     // MARK: 1.2 =========================== 值捕获
-    func Test1() {
+    func point1() {
         /*闭包可以在其被定义的上下文中捕获常量或变量。
         即使定义这些常量和变量的原作用域已经不存在，闭包仍然可以在闭包函数体内引用和修改这些值。
         Swift 中，可以捕获值的闭包的最简单形式是嵌套函数，也就是定义在其他函数的函数体内的函数。
@@ -123,7 +123,7 @@ class AMBlocksPart2 {
 //        }
 //    }
         
-    func Test2() {
+    func point2() {
         someFunctionWithEscapingClosure { self.x = 100 }
         someFunctionWithNonescapingClosure { x = 200 }
         print(x)
@@ -139,7 +139,7 @@ class AMBlocksPart2 {
      这种闭包不接受任何参数，当它被调用的时候，会返回被包装在其中的表达式的值。
      这种便利语法让你能够省略闭包的花括号，用一个普通的表达式来代替显式的闭包。
      */
-    func Test3() {
+    func point3() {
         var customersInLine = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
         print(customersInLine.count)
         // 打印出“5”
@@ -192,7 +192,7 @@ class AMBlocksPart2 {
     }
     
     // MARK: 1.5 =========================== 实例
-    func Test4() {
+    func point4() {
         AMLog("1234")
     }
     

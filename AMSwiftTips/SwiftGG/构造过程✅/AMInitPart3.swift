@@ -10,20 +10,20 @@ import Foundation
 class AMInitPart3 {
     
     
-    func SetupTest() {
-        Test()
-        Test1()
-        Test2()
-        Test3()
-        Test4()
-        Test5()
-        Test6()
+    func setup() {
+        point()
+        point1()
+        point2()
+        point3()
+        point4()
+        point5()
+        point6()
     }
     
     // MARK: 1.1 =========================== 可失败构造器
     /* 注意
      可失败构造器的参数名和参数类型，不能与其它非可失败构造器的参数名，及其参数类型相同。*/
-    func Test() {
+    func point() {
         let wholeNumber: Double = 12345.0
         let pi = 3.14159
 
@@ -72,7 +72,7 @@ class AMInitPart3 {
     }
     
     // MARK: 1.2 =========================== 枚举类型的可失败构造器
-    func Test1() {
+    func point1() {
         enum TemperatureUnit {
             case Kelvin, Celsius, Fahrenheit
             init?(symbol: Character) {
@@ -103,7 +103,7 @@ class AMInitPart3 {
     }
     
     // MARK: 1.3 =========================== 带原始值的枚举类型的可失败构造器
-    func Test2() {
+    func point2() {
         enum TemperatureUnit1: Character {
             case Kelvin = "K", Celsius = "C", Fahrenheit = "F"
         }
@@ -127,7 +127,7 @@ class AMInitPart3 {
     类似的，子类的可失败构造器也能向上代理到父类的可失败构造器。
     无论是向上代理还是横向代理，如果你代理到的其他可失败构造器触发构造失败，
     整个构造过程将立即终止，接下来的任何构造代码不会再被执行。*/
-    func Test3() {
+    func point3() {
         class Product {
             let name: String
             init?(name: String) {
@@ -147,7 +147,7 @@ class AMInitPart3 {
     }
     
     ///------------------------重写一个可失败构造器------------------------///
-    func Test4() {
+    func point4() {
         class Document {
             var name: String?
             // 该构造器创建了一个 name 属性的值为 nil 的 document 实例
@@ -187,7 +187,7 @@ class AMInitPart3 {
     
     // MARK: 1.6 =========================== 必要构造器
     // 在类的构造器前添加 required 修饰符表明所有该类的子类都必须实现该构造器
-    func Test5() {
+    func point5() {
         class SomeClass {
             required init() {
                 // 构造器的实现代码
@@ -208,7 +208,7 @@ class AMInitPart3 {
      每当某个属性所在类型的新实例被构造时，对应的闭包或函数会被调用，而它们的返回值会当做默认值赋值给这个属性。
      这种类型的闭包或函数通常会创建一个跟属性类型相同的临时变量，然后修改它的值以满足预期的初始状态，最后返回这个临时变量，作为属性的默认值。
      下面模板介绍了如何用闭包为属性提供默认值：*/
-    func Test6() {
+    func point6() {
         /* 注意
          如果你使用闭包来初始化属性，请记住在闭包执行时，实例的其它部分都还没有初始化。
          这意味着你不能在闭包里访问其它属性，即使这些属性有默认值。(lazy属性除外) 同样，你也不能使用隐式的 self 属性，或者调用任何实例方法。*/

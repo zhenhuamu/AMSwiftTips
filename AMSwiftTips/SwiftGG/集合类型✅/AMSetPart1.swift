@@ -8,13 +8,13 @@
 import Foundation
 
 class AMSetPart1 {
-    func SetupTest() {
-        Test()
-        Test1()
+    func setup() {
+        point()
+        point1()
     }
     
     // MARK: 1.1 =========================== 数组
-    func Test() {
+    func point() {
         var someInts = [Int]()
         print("someInts is of type [Int] with \(someInts.count) items.")
         // 打印“someInts is of type [Int] with 0 items.”
@@ -80,7 +80,7 @@ class AMSetPart1 {
     }
     
     // MARK: 1.2 =========================== 数组的遍历
-    func Test1() {
+    func point1() {
         let shoppingList = ["Six eggs", "Milk", "Flour", "Baking Powder", "Bananas"]
         for item in shoppingList {
             print(item)

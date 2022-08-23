@@ -17,83 +17,87 @@ class ViewController: UIViewController {
         // 参考：https://swiftgg.gitbook.io/swift/huan-ying-shi-yong-swift
         
         //基础部分
-        AMBasicsPart1().SetupTest()
-        AMBasicsPart2().SetupTest()
-        AMBasicsPart3().SetupTest()
-        AMBasicsPart4().SetupTest()
+        AMBasicsPart1().setup()
+        AMBasicsPart2().setup()
+        AMBasicsPart3().setup()
+        AMBasicsPart4().setup()
         
         //基本运算符
-        AMBasicsOperatorPart1().SetupTest()
-        AMBasicsOperatorPart2().SetupTest()
+        AMBasicsOperatorPart1().setup()
+        AMBasicsOperatorPart2().setup()
 
         //字符串和字符
-        AMStringPart1().SetupTest()
-        AMStringPart2().SetupTest()
+        AMStringPart1().setup()
+        AMStringPart2().setup()
 
         // 集合类型
-        AMSetPart1().SetupTest()
-        AMSetPart2().SetupTest()
-        AMSetPart3().SetupTest()
+        AMSetPart1().setup()
+        AMSetPart2().setup()
+        AMSetPart3().setup()
 
         // 控制流
-        AMIfPart1().SetupTest()
-        AMIfPart2().SetupTest()
+        AMIfPart1().setup()
+        AMIfPart2().setup()
 
         // 函数
-        AMFunctionPart1().SetupTest()
-        AMFunctionPart2().SetupTest()
+        AMFunctionPart1().setup()
+        AMFunctionPart2().setup()
 
         // 闭包
-        AMBlocksPart1().SetupTest()
-        AMBlocksPart2().SetupTest()
+        AMBlocksPart1().setup()
+        AMBlocksPart2().setup()
 
         // 枚举
-        AMEnumPart1().SetupTest()
+        AMEnumPart1().setup()
 
         // 类和结构体
-        AMClassAndStructPart1().SetupTest()
+        AMClassAndStructPart1().setup()
 
         // 属性
-        AMPropertyPart1().SetupTest()
-        AMPropertyPart2().SetupTest()
+        AMPropertyPart1().setup()
+        AMPropertyPart2().setup()
 
         // 方法
-        AMMethodsPart1().SetupTest()
+        AMMethodsPart1().setup()
 
         // 下标
-        AMSubscriptPart1().SetupTest()
+        AMSubscriptPart1().setup()
 
         // 继承
-        AMInheritPart1().SetupTest()
+        AMInheritPart1().setup()
 
         // 构造过程
-        AMInitPart1().SetupTest()
-        AMInitPart2().SetupTest()
-        AMInitPart3().SetupTest()
+        AMInitPart1().setup()
+        AMInitPart2().setup()
+        AMInitPart3().setup()
 
         // 析构过程
-        AMDeinitPart3().SetupTest()
+        AMDeinitPart3().setup()
 
         // 可选链
-        AMOptionalPart1().SetupTest()
+        AMOptionalPart1().setup()
 
         // 错误处理
-        AMErrorPart1().SetupTest()
+        AMErrorPart1().setup()
 
         // 类型转换
-        AMAsPart1().SetupTest()
+        AMAsPart1().setup()
 
         // 扩展
-        AMExtensionPart1().SetupTest()
+        AMExtensionPart1().setup()
 
         // 协议
-        AMProtocolPart1().SetupTest()
-        AMProtocolPart2().SetupTest()
-        AMProtocolPart3().SetupTest()
-        AMProtocolPart4().SetupTest()
+        AMProtocolPart1().setup()
+        AMProtocolPart2().setup()
+        AMProtocolPart3().setup()
+        AMProtocolPart4().setup()
         
         // 琐碎知识点
-        AMTrivialPart().SetupTest()
+        AMTrivialPart().setup()
+        
+        // 参考：https://swiftgg.gitbook.io/swift/huan-ying-shi-yong-swift
+        AMSwiftTips1().setup()
+        
     }
 }
 

@@ -9,8 +9,8 @@ import Foundation
 
 class AMProtocolPart4 {
     
-    func SetupTest() {
-        Test()
+    func setup() {
+        point()
         
     }
     ///-------------------------检查协议一致性-----------------------------///
@@ -19,7 +19,7 @@ class AMProtocolPart4 {
     is 用来检查实例是否遵循某个协议，若遵循则返回 true，否则返回 false；
     as? 返回一个可选值，当实例遵循某个协议时，返回类型为协议类型的可选值，否则返回 nil；
     as! 将实例强制向下转换到某个协议类型，如果强转失败，将触发运行时错误。*/
-    func Test() {
+    func point() {
         class Circle: HasArea {
             let pi = 3.1415927
             var radius: Double
@@ -53,7 +53,7 @@ class AMProtocolPart4 {
     }
     
     ///-------------------------协议扩展-----------------------------///
-    func Test1() {
+    func point1() {
 //        class LinearCongruentialGenerator:RandomNumberGenerator {
 //            
 //        }
