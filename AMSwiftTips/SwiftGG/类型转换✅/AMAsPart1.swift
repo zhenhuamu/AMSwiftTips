@@ -21,6 +21,7 @@ class AMAsPart1 {
     检查特定类实例的类型并且转换这个类实例的类型成为这个层次结构中的其他类型。
     下面的三个代码段定义了一个类层次和一个包含了这些类实例的数组，作为类型转换的例子。*/
     func point() {
+        print("=========================== 为类型转换定义类层次")
         class MediaItem {
             var name: String
             init(name: String) {
@@ -55,6 +56,7 @@ class AMAsPart1 {
         print(library)
         
         // MARK: 1.2 =========================== 检查类型
+        print("=========================== 检查类型")
         /* 用类型检查操作符（is）来检查一个实例是否属于特定子类型。
         若实例属于那个子类型，类型检查操作符返回 true，否则返回 false。*/
         var movieCount = 0
@@ -72,6 +74,7 @@ class AMAsPart1 {
         // 打印“Media library contains 2 movies and 3 songs”
         
         // MARK: 1.3 =========================== 向下转型
+        print("=========================== 向下转型")
         ///-------------------------向下转型-----------------------------///
         /* 某类型的一个常量或变量可能在幕后实际上属于一个子类。
         当确定是这种情况时，你可以尝试用类型转换操作符（as? 或 as!）向下转到它的子类型。
@@ -110,7 +113,7 @@ class AMAsPart1 {
      只有当你确实需要它们的行为和功能时才使用 Any 和 AnyObject。最好还是在代码中指明需要使用的类型。
      */
     func point1() {
-        
+        print("=========================== Any 和 AnyObject 的类型转换")
         class MediaItem {
             var name: String
             init(name: String) {

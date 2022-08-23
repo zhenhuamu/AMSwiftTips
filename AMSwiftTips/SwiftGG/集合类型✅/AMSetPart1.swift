@@ -15,6 +15,7 @@ class AMSetPart1 {
     
     // MARK: 1.1 =========================== 数组
     func point() {
+        print("=========================== 数组")
         var someInts = [Int]()
         print("someInts is of type [Int] with \(someInts.count) items.")
         // 打印“someInts is of type [Int] with 0 items.”
@@ -81,6 +82,7 @@ class AMSetPart1 {
     
     // MARK: 1.2 =========================== 数组的遍历
     func point1() {
+        print("=========================== 数组的遍历")
         let shoppingList = ["Six eggs", "Milk", "Flour", "Baking Powder", "Bananas"]
         for item in shoppingList {
             print(item)

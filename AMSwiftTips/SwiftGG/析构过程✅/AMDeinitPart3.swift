@@ -10,6 +10,7 @@ import Foundation
 class AMDeinitPart3 {
 
     func setup() {
+        print("=========================== 析构过程")
         class Bank {
             static var coinsInBank = 10_000
             static func distribute(coins numberOfCoinsRequested: Int) -> Int {

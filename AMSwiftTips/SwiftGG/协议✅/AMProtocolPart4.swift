@@ -20,6 +20,7 @@ class AMProtocolPart4 {
     as? 返回一个可选值，当实例遵循某个协议时，返回类型为协议类型的可选值，否则返回 nil；
     as! 将实例强制向下转换到某个协议类型，如果强转失败，将触发运行时错误。*/
     func point() {
+        print("=========================== 检查协议一致性")
         class Circle: HasArea {
             let pi = 3.1415927
             var radius: Double

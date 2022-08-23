@@ -15,6 +15,7 @@ class AMSetPart2 {
     
     // MARK: 1.1 =========================== 集合
     func point() {
+        print("=========================== 集合")
         // 创建和构造一个空的集合
         var letters = Set<Character>()
         print("letters is of type Set<Character> with \(letters.count) items.")
@@ -78,6 +79,7 @@ class AMSetPart2 {
     // MARK: 1.2 =========================== 基本集合操作
     
     func point1() {
+        print("=========================== 基本集合操作")
         //使用 intersection(_:) 方法根据两个集合的交集创建一个新的集合。
         //使用 symmetricDifference(_:) 方法根据两个集合不相交的值创建一个新的集合。
         //使用 union(_:) 方法根据两个集合的所有值创建一个新的集合。

@@ -41,6 +41,7 @@ class AMClassAndStructPart1 {
     let someVideoMode = VideoMode()
     
     func point() {
+        print("=========================== 类型定义的语法、结构体和类的实例、属性访问")
         // 属性访问
         print("The width of someResolution is \(someResolution.width)")
         // 打印 "The width of someResolution is 0"
@@ -60,6 +61,7 @@ class AMClassAndStructPart1 {
     
     // MARK: 1.2 =========================== 结构体和枚举是值类型
     func point1() {
+        print("=========================== 结构体和枚举是值类型")
         let hd = Resolution(width: 1920, height: 1080)
         var cinema = hd
         cinema.width = 2048
@@ -77,6 +79,7 @@ class AMClassAndStructPart1 {
     /* 与值类型不同，引用类型在被赋予到一个变量、常量或者被传递到一个函数时，其值不会被拷贝。
      因此，使用的是已存在实例的引用，而不是其拷贝。*/
     func point2() {
+        print("=========================== 类是引用类型")
         let tenEighty = VideoMode()
         tenEighty.resolution = Resolution(width: 1920, height: 1080)
         tenEighty.interlaced = true
@@ -98,7 +101,7 @@ class AMClassAndStructPart1 {
     */
     
     func point3() {
-        
+        print("=========================== 恒等运算符")
         let hd = Resolution(width: 1920, height: 1080)
         let alsohd = hd
         if alsohd == hd {

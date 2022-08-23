@@ -14,6 +14,7 @@ class AMFunctionPart1 {
 
     // MARK: 1.1 =========================== 函数 & 函数参数与返回值
     func point() {
+        print("=========================== 函数 & 函数参数与返回值")
         func greet(person: String) -> String {
             let greeting = "Hello, " + person + "!"
             return greeting

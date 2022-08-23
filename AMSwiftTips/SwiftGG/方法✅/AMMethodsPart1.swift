@@ -44,6 +44,7 @@ class AMMethodsPart1 {
     
     // MARK: 1.2 =========================== self 属性
     func point1() {
+        print("=========================== self 属性")
         /* 类型的每一个实例都有一个隐含属性叫做 self，self 完全等同于该实例本身。
         你可以在一个实例的实例方法中使用这个隐含的 self 属性来引用当前实例。*/
         class Counter {
@@ -73,6 +74,7 @@ class AMMethodsPart1 {
     并且这个方法做的任何改变都会在方法执行结束时写回到原始结构中。方法还可以给它隐含的 self 属性赋予一个全新的实例，这个新实例在方法结束时会替换现存实例。
      要使用 可变方法，将关键字 mutating 放到方法的 func 关键字之前就可以了：*/
     func point2() {
+        print("=========================== 在实例方法中修改值类型")
         struct Point {
             var x = 0.0, y = 0.0
             mutating func moveBy(x deltaX: Double, y deltaY: Double) {

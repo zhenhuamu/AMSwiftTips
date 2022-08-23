@@ -24,6 +24,7 @@ class AMProtocolPart3 {
     遵循 Equatable 协议且只有关联类型的枚举
     没有任何关联类型的枚举*/
     func point() {
+        print("=========================== 使用合成实现来采纳协议")
         struct Vector3D: Equatable {
             var x = 0.0, y = 0.0, z = 0.0
         }
@@ -63,6 +64,7 @@ class AMProtocolPart3 {
     /*要求一个类型同时遵循多个协议是很有用的。你可以使用协议组合来复合多个协议到一个要求里。协议组合行为就和你定义的临时局部协议一样拥有构成中所有协议的需求。协议组合不定义任何新的协议类型。
     协议组合使用 SomeProtocol & AnotherProtocol 的形式。你可以列举任意数量的协议，用和符号（&）分开。除了协议列表，协议组合也能包含类类型，这允许你标明一个需要的父类。*/
     func point2() {
+        print("=========================== 协议合成")
         struct Person: Named, Aged {
             var name: String
             var age: Int

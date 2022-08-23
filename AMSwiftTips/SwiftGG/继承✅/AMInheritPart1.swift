@@ -16,6 +16,7 @@ class AMInheritPart1 {
     
     // MARK: 1.1 =========================== 子类生成
     func point() {
+        print("=========================== 子类生成")
         /* 注意
          Swift 中的类并不是从一个通用的基类继承而来的。
          如果你不为自己定义的类指定一个超类的话，这个类就会自动成为基类。*/
@@ -63,6 +64,7 @@ class AMInheritPart1 {
      在下标的重写实现中，可以通过 super[someIndex] 来访问超类版本中的相同下标。*/
     
     func point1() {
+        print("=========================== 重写")
         class Vehicle {
             var currentSpeed = 0.0
             var description: String {

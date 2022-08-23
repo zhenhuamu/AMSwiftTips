@@ -26,6 +26,7 @@ class AMEnumPart1 {
     
     // MARK: 1.1 =========================== 枚举语法
     func point() {
+        print("=========================== 枚举语法")
         /* 注意
         与 C 和 Objective-C 不同，Swift 的枚举成员在被创建时不会被赋予一个默认的整型值。
         在上面的 CompassPoint 例子中，north，south，east 和 west 不会被隐式地赋值为 0，1，2 和 3。
@@ -44,6 +45,7 @@ class AMEnumPart1 {
     
     // MARK: 1.2 =========================== 使用 Switch 语句匹配枚举值
     func point1() {
+        print("=========================== 使用 Switch 语句匹配枚举值")
         let directionToHead = CompassPoint.south
         switch directionToHead {
         case .north:
@@ -66,6 +68,7 @@ class AMEnumPart1 {
     
     // MARK: 1.3 =========================== 枚举成员的遍历
     func point2() {
+        print("=========================== 枚举成员的遍历")
         // 令枚举遵循 CaseIterable 协议。Swift 会生成一个 allCases 属性，用于表示一个包含枚举所有成员的集合。下面是一个例子：
         enum Beverage: CaseIterable {
             case coffee, tea, juice
@@ -84,6 +87,7 @@ class AMEnumPart1 {
     
     // MARK: 1.4 =========================== 关联值
     func point3() {
+        print("=========================== 关联值")
         /* 你可以定义Swift枚举来存储任意类型的关联值，如果需要的话，每个枚举成员的关联值类型可以各不相同。
          枚举的这种特性跟其他语言中的可识别联合（discriminated unions），标签联合（tagged
          unions），或者变体（variants）相似。*/
@@ -109,6 +113,7 @@ class AMEnumPart1 {
     
     // MARK: 1.5 =========================== 原始值
     func point4() {
+        print("=========================== 原始值")
         // 原始值的隐式赋值
         enum ASCIIControlCharacter: Character {
             case tab = "\t"

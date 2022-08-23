@@ -15,6 +15,7 @@ class AMSetPart3 {
     
     // MARK: 1.1 =========================== 字典
     func point() {
+        print("=========================== 字典")
         // 创建一个空字典
         var namesOfIntegers = [Int: String]()
         // namesOfIntegers 是一个空的 [Int: String] 字典
@@ -73,6 +74,7 @@ class AMSetPart3 {
     
     // MARK: 1.2 =========================== 字典遍历
     func point1() {
+        print("=========================== 字典遍历")
         let airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
         for (airportCode, airportName) in airports {
             print("\(airportCode): \(airportName)")

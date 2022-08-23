@@ -48,6 +48,7 @@ class AMProtocolPart2 {
     作为常量、变量或属性的类型
     作为数组、字典或其他容器中的元素类型*/
     func point1() {
+        print("=========================== 协议作为类型")
         class LinearCongruentialGenerator : SomeProtocol4 {
             func random() -> Double {
                 return 5;

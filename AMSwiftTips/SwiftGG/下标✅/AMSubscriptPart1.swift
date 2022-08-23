@@ -17,6 +17,7 @@ class AMSubscriptPart1 {
     
     // MARK: 1.1 =========================== 下标语法
     func point() {
+        print("=========================== 下标语法")
         struct TimesTable {
             let multiplier: Int
             subscript(index: Int) -> Int {
@@ -43,6 +44,7 @@ class AMSubscriptPart1 {
     // MARK: 1.3 =========================== 下标选项
     // 下标可以接受任意数量的入参，并且这些入参可以是任何类型。下标的返回值也可以是任意类型。
     func point2() {
+        print("=========================== 下标选项")
         struct Matrix {
             let rows: Int, columns: Int
             var grid: [Double]
@@ -77,6 +79,7 @@ class AMSubscriptPart1 {
     类类型可以使用 class 关键字来代替 static，它允许子类重写父类中对那个下标的实现。
     下面的例子展示了如何定义和调用一个类型下标：*/
     func point4() {
+        print("=========================== 类型下标")
         enum Planet: Int {
             case mercury = 1, venus, earth, mars, jupiter, saturn, uranus, neptune
             static subscript(n: Int) -> Planet {

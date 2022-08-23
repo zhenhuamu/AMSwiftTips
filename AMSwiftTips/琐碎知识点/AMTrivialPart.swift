@@ -27,8 +27,7 @@ class AMTrivialPart {
     
     // MARK: 1.2 =========================== 解除循环引用的三种方式
     func point1() {
-        
-        
+        print("=========================== 解除循环引用的三种方式")
         /// 方法一:OC方式
         /// var( weak 只能修饰 var ,不能修饰 let)
         /// weak可能会被在运行时被修饰 -> 指向的对象一旦被释放，会被自动设置为nil
@@ -55,6 +54,7 @@ class AMTrivialPart {
 
     // MARK: 1.3 =========================== Swift 中.self和 type(of:)
     func point2() {
+        print("=========================== Swift 中.self和 type(of:)")
         let temp1 = AMAsPart1.self
         let temp2 = AMAsPart1().self
         print("\(temp1)=====\(temp2)")

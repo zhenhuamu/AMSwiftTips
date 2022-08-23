@@ -17,7 +17,7 @@ class AMIfPart1 {
 
     // MARK: 1.1 =========================== For-In 循环
     func point() {
-        
+        print("=========================== For-In 循环")
         // 数组
         let names = ["Anna", "Alex", "Brian", "Jack"]
         for name in names {
@@ -76,6 +76,7 @@ class AMIfPart1 {
     
     // MARK: 1.2 =========================== While 循环
     func point1() {
+        print("=========================== While 循环")
         // While 循环
         let finalSquare = 25
         var board = [Int](repeating: 0, count: finalSquare + 1)
@@ -120,6 +121,7 @@ class AMIfPart1 {
     
     // MARK: 1.3 =========================== 条件语句 If
     func point2() {
+        print("=========================== 条件语句 If")
         // If
         var temperatureInFahrenheit = 30
         if temperatureInFahrenheit <= 32 {
@@ -145,6 +147,7 @@ class AMIfPart1 {
     
     // MARK: 1.4 =========================== 条件语句 switch
     func point3() {
+        print("=========================== 条件语句 switch")
         let someCharacter: Character = "z"
         switch someCharacter {
         case "a":
