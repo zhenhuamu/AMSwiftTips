@@ -97,6 +97,8 @@ class ViewController: UIViewController {
         
         // 参考：https://swiftgg.gitbook.io/swift/huan-ying-shi-yong-swift
         AMSwiftTips1().setup()
+        AMSwiftTips2().setup()
+        AMSwiftTips3().setup()
         
     }
 }

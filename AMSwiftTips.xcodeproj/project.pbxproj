@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5F25DE5C28B3C3DC00D56D1D /* AMSwiftTips1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25DE5B28B3C3DC00D56D1D /* AMSwiftTips1.swift */; };
+		5F6F4E6A28B51D0F000B664B /* AMSwiftTips2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */; };
+		5F6F4E6C28B51E43000B664B /* AMSwiftTips3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */; };
 		5FB3292828A8C60700B7E19B /* AMTrivialPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3292728A8C60700B7E19B /* AMTrivialPart.swift */; };
 		8E513C6225427766003A2EA4 /* AMEnumPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C6125427766003A2EA4 /* AMEnumPart1.swift */; };
 		8E513C67254284DE003A2EA4 /* AMMethodsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */; };
@@ -79,6 +81,8 @@
 
 /* Begin PBXFileReference section */
 		5F25DE5B28B3C3DC00D56D1D /* AMSwiftTips1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips1.swift; sourceTree = "<group>"; };
+		5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips2.swift; sourceTree = "<group>"; };
+		5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips3.swift; sourceTree = "<group>"; };
 		5FB3292728A8C60700B7E19B /* AMTrivialPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMTrivialPart.swift; sourceTree = "<group>"; };
 		8E513C6125427766003A2EA4 /* AMEnumPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEnumPart1.swift; sourceTree = "<group>"; };
 		8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMMethodsPart1.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				5F25DE5B28B3C3DC00D56D1D /* AMSwiftTips1.swift */,
+				5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */,
+				5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */,
 			);
 			path = "Tips1~10";
 			sourceTree = "<group>";
@@ -572,6 +578,7 @@
 				8EDA39C1253548890045D1FD /* AMBasicsPart4.swift in Sources */,
 				8E513C7B2542C3A4003A2EA4 /* AMInitPart2.swift in Sources */,
 				8EDA3CBB253834C40045D1FD /* AMSetPart1.swift in Sources */,
+				5F6F4E6A28B51D0F000B664B /* AMSwiftTips2.swift in Sources */,
 				8EDA3AA32536E29F0045D1FD /* AMBlocksPart2.swift in Sources */,
 				8EDA3A982536AA760045D1FD /* AMFunctionPart1.swift in Sources */,
 				8EDA3A90253693020045D1FD /* AMPropertyPart1.swift in Sources */,
@@ -598,6 +605,7 @@
 				8EDA39C9253570DC0045D1FD /* AMBasicsOperatorPart2.swift in Sources */,
 				8E513C772542BAB8003A2EA4 /* AMInitPart1.swift in Sources */,
 				8E513C6D2542A5BE003A2EA4 /* AMSubscriptPart1.swift in Sources */,
+				5F6F4E6C28B51E43000B664B /* AMSwiftTips3.swift in Sources */,
 				8EDA39A125344AEA0045D1FD /* SceneDelegate.swift in Sources */,
 				8E91C4AC2543CCA100185C41 /* AMExtensionPart1.swift in Sources */,
 				8EDA3A9B2536C31E0045D1FD /* AMFunctionPart2.swift in Sources */,

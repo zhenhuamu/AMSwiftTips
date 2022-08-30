@@ -20,7 +20,7 @@ class AMSwiftTips1 {
 
     /// Swift里可以把方法进行柯里化， 这也就是把接受多个参数的方法进行一些列变形，使其更加灵活的方法。
     func point() {
-        print("=============================MARK: - 柯里化(Currying)")
+        print("=========================== MARK: - 柯里化(Currying)")
         print("\(type(of: addTo(2))) ==== \(addTo(2)(3))")
         print("\(type(of: addTo(2))) ==== \(addTo(2)(4))")
         
