@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F19193A28BE5FDC0027D2A5 /* AMSwiftTips4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19193928BE5FDC0027D2A5 /* AMSwiftTips4.swift */; };
 		5F25DE5C28B3C3DC00D56D1D /* AMSwiftTips1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25DE5B28B3C3DC00D56D1D /* AMSwiftTips1.swift */; };
 		5F6F4E6A28B51D0F000B664B /* AMSwiftTips2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */; };
 		5F6F4E6C28B51E43000B664B /* AMSwiftTips3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */; };
@@ -80,6 +81,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F19193928BE5FDC0027D2A5 /* AMSwiftTips4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips4.swift; sourceTree = "<group>"; };
 		5F25DE5B28B3C3DC00D56D1D /* AMSwiftTips1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips1.swift; sourceTree = "<group>"; };
 		5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips2.swift; sourceTree = "<group>"; };
 		5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips3.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				5F25DE5B28B3C3DC00D56D1D /* AMSwiftTips1.swift */,
 				5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */,
 				5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */,
+				5F19193928BE5FDC0027D2A5 /* AMSwiftTips4.swift */,
 			);
 			path = "Tips1~10";
 			sourceTree = "<group>";
@@ -592,6 +595,7 @@
 				8EDA3D1A253850120045D1FD /* AMSetPart3.swift in Sources */,
 				8EDA3D8F253D43530045D1FD /* AMIfPart2.swift in Sources */,
 				8EDA399F25344AEA0045D1FD /* AppDelegate.swift in Sources */,
+				5F19193A28BE5FDC0027D2A5 /* AMSwiftTips4.swift in Sources */,
 				8E91C4B12543D2B600185C41 /* AMProtocolPart1.swift in Sources */,
 				8E91C4BB2543E71A00185C41 /* AMProtocolPart4.swift in Sources */,
 				8EDA3D8B253D38E10045D1FD /* AMIfPart1.swift in Sources */,
