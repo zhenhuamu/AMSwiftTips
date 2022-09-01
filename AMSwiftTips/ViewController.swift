@@ -99,7 +99,7 @@ class ViewController: UIViewController {
         AMSwiftTips1().setup()
         AMSwiftTips2().setup()
         AMSwiftTips3().setup()
-        
+        AMSwiftTips4().setup()
     }
 }
 
