@@ -100,6 +100,8 @@ class ViewController: UIViewController {
         AMSwiftTips2().setup()
         AMSwiftTips3().setup()
         AMSwiftTips4().setup()
+        AMSwiftTips5().setup()
+        AMSwiftTips6().setup()
     }
 }
 

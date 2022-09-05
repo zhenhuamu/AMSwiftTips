@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		5F19193A28BE5FDC0027D2A5 /* AMSwiftTips4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19193928BE5FDC0027D2A5 /* AMSwiftTips4.swift */; };
 		5F25DE5C28B3C3DC00D56D1D /* AMSwiftTips1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25DE5B28B3C3DC00D56D1D /* AMSwiftTips1.swift */; };
+		5F4FA2A328C641CC00D8DFC1 /* AMSwiftTips6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4FA2A228C641CC00D8DFC1 /* AMSwiftTips6.swift */; };
 		5F6F4E6A28B51D0F000B664B /* AMSwiftTips2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */; };
 		5F6F4E6C28B51E43000B664B /* AMSwiftTips3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */; };
+		5F992CD828C5818200BE6805 /* AMSwiftTips5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F992CD728C5818200BE6805 /* AMSwiftTips5.swift */; };
 		5FB3292828A8C60700B7E19B /* AMTrivialPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3292728A8C60700B7E19B /* AMTrivialPart.swift */; };
 		8E513C6225427766003A2EA4 /* AMEnumPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C6125427766003A2EA4 /* AMEnumPart1.swift */; };
 		8E513C67254284DE003A2EA4 /* AMMethodsPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */; };
@@ -83,8 +85,10 @@
 /* Begin PBXFileReference section */
 		5F19193928BE5FDC0027D2A5 /* AMSwiftTips4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips4.swift; sourceTree = "<group>"; };
 		5F25DE5B28B3C3DC00D56D1D /* AMSwiftTips1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips1.swift; sourceTree = "<group>"; };
+		5F4FA2A228C641CC00D8DFC1 /* AMSwiftTips6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips6.swift; sourceTree = "<group>"; };
 		5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips2.swift; sourceTree = "<group>"; };
 		5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips3.swift; sourceTree = "<group>"; };
+		5F992CD728C5818200BE6805 /* AMSwiftTips5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSwiftTips5.swift; sourceTree = "<group>"; };
 		5FB3292728A8C60700B7E19B /* AMTrivialPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMTrivialPart.swift; sourceTree = "<group>"; };
 		8E513C6125427766003A2EA4 /* AMEnumPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMEnumPart1.swift; sourceTree = "<group>"; };
 		8E513C66254284DE003A2EA4 /* AMMethodsPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMMethodsPart1.swift; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				5F6F4E6928B51D0F000B664B /* AMSwiftTips2.swift */,
 				5F6F4E6B28B51E43000B664B /* AMSwiftTips3.swift */,
 				5F19193928BE5FDC0027D2A5 /* AMSwiftTips4.swift */,
+				5F992CD728C5818200BE6805 /* AMSwiftTips5.swift */,
+				5F4FA2A228C641CC00D8DFC1 /* AMSwiftTips6.swift */,
 			);
 			path = "Tips1~10";
 			sourceTree = "<group>";
@@ -571,6 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F992CD828C5818200BE6805 /* AMSwiftTips5.swift in Sources */,
 				8E513C7E2542D904003A2EA4 /* AMInitPart3.swift in Sources */,
 				8EDA3CB22538263F0045D1FD /* AMStringPart1.swift in Sources */,
 				8E5916182543BFA800074303 /* AMAsPart1.swift in Sources */,
@@ -616,6 +623,7 @@
 				5FB3292828A8C60700B7E19B /* AMTrivialPart.swift in Sources */,
 				8E513C722542B441003A2EA4 /* AMInheritPart1.swift in Sources */,
 				8E513C822542E3F1003A2EA4 /* AMDeinitPart3.swift in Sources */,
+				5F4FA2A328C641CC00D8DFC1 /* AMSwiftTips6.swift in Sources */,
 				8E513C6225427766003A2EA4 /* AMEnumPart1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
